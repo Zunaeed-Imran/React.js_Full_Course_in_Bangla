@@ -1,7 +1,15 @@
 ## React.js Full Course in Bangla.
 
-#### Lectured by: Anisul Islam Rubel .
+#### Lectured by: Anisul Islam Rubel & Bro Code.
 <hr>
+
+#### Basic React Knowledge
+- `node_modules` folder is external library and package's, build tool's,
+    utility library etc, it's just contain external library our project relies on.
+- we import app.jsx to main.jsx so that we can access App.jsx.
+- remember we need to export statement in the App.jxs file.
+
+
 
 #### Step By Step Environment setup.
 - First i install node js,
