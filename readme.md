@@ -29,15 +29,19 @@
 
 ## What was my fault and what i learn in this project.
 - i was forget to change directory to my new making react file and chack `pwd`
-
-
+- in function return i take <div> to take multiple string.
+- and i can use () in return funtion.
+- external CSS file should be on Public folder.
 
 
 
 
 
 ###### Done Task For Today
-- install node js.
-- setup react environment by vite.
-- wacthing basic react tutorial.
+- Watchig some basic react tutorial.
+- i learn how to restart react server.
+- practicing simple react project.
+- practicing inline CSS in react.
+- practice inline css by calling variable name.
+- practicing external css in react.
 - 
