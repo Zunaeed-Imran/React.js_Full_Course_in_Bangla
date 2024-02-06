@@ -32,16 +32,13 @@
 - in function return i take <div> to take multiple string.
 - and i can use () in return funtion.
 - external CSS file should be on Public folder.
-
+- i was not make css file in public folder and link to html file,
+  that's why it wasn't work.
+- for scr style file i have to import form that file i use in css.  
 
 
 
 
 ###### Done Task For Today
-- Watchig some basic react tutorial.
-- i learn how to restart react server.
-- practicing simple react project.
-- practicing inline CSS in react.
-- practice inline css by calling variable name.
-- practicing external css in react.
+- Practicing Extalnal CSS file in react.
 - 
