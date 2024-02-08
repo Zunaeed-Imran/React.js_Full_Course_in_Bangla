@@ -40,5 +40,5 @@
 
 
 ###### Done Task For Today
-- Practicing Extalnal CSS file in react.
+- Practicing component card.
 - 
