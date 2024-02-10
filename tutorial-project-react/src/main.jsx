@@ -10,8 +10,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <>
       
       {/* <Prac/> */}
-      {/* <App /> */}
-      <Card/>
+      <App />
+      {/* <Card/> */}
     </>
   </React.StrictMode>,
 )

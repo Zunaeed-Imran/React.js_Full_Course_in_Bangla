@@ -20,6 +20,8 @@
 - and than run the code `npm install`,
 - after run this code `npm run dev`,
 - <b>now environment is ready</b>.
+- we export because what we want use in the future in every component.
+- we use import because what we take from component.
 
 #### Restart Server.
 - first i need to ensure to right `pwd`
@@ -35,10 +37,16 @@
 - i was not make css file in public folder and link to html file,
   that's why it wasn't work.
 - for scr style file i have to import form that file i use in css.  
-
-
+- in function return we use parenthesis `()`;
+- if i need js const in function i need to take const or variable in the function `{}` 
+- in `{}` we can use js builtIn function also.
+- we use javascript function like uppercase function.
 
 
 ###### Done Task For Today
 - Practicing component card.
+- watchig basic react tutorial short video's
+- Making header component.
+- Making Footer Component.
+- Making list Component in main manu.
 - 
