@@ -3,6 +3,8 @@
   padding: 0;
 }
 
+/* card design css  */
+
 .parastyle{
   background-color:#8aa7db;
   color: black;
@@ -40,4 +42,13 @@
 .cardFooter{
   text-align: center;
   font-weight: bold;
+}
+
+
+/* proops practice css  */
+.job{
+  font-family: Arial, sans-serif;
+  font-size: 2rem;
+  padding: 10px;
+  border: 1px solid #0c3638;
 }

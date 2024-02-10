@@ -42,7 +42,9 @@
 - in `{}` we can use js builtIn function also.
 - we use javascript function like uppercase function.
 - if we use image in react we have to import image first, than use in js variable name by calling.
-
+- we use proops as JS object.
+- using proops we can pass new value in the component.
+- using proops sring can be in `name="string"` but number should be in `age={26}`
 
 ###### Done Task For Today
 - Practicing component card.
@@ -54,4 +56,5 @@
 - useing image in card component.
 - Applying CSS in Card Component.
 - Learning Proops.
-- 
+- practicing proops.
+- learning proop type.

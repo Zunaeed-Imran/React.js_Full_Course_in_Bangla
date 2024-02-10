@@ -2,6 +2,7 @@ import Header from "./Header";
 import Footer from "./Footer";
 import Food from "./Food";
 import Card from "./card";
+import Student from "./Student";
 
 
 function App() {
@@ -12,7 +13,10 @@ function App() {
       <Food/>
       <Footer /> */}
       
-      <Card/>
+      {/* <Card/> */}
+
+      <Student name="Imran" age={26} isEmploye={true} />
+      <Student name="Shakil" age={23} isEmploye={false} />
     </>
   );
 }
