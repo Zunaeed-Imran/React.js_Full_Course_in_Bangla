@@ -41,6 +41,7 @@
 - if i need js const in function i need to take const or variable in the function `{}` 
 - in `{}` we can use js builtIn function also.
 - we use javascript function like uppercase function.
+- if we use image in react we have to import image first, than use in js variable name by calling.
 
 
 ###### Done Task For Today
@@ -49,4 +50,8 @@
 - Making header component.
 - Making Footer Component.
 - Making list Component in main manu.
+- Making Card Component.
+- useing image in card component.
+- Applying CSS in Card Component.
+- Learning Proops.
 - 
