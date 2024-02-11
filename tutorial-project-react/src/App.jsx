@@ -4,6 +4,7 @@ import Food from "./Food";
 import Card from "./card";
 import Student from "./Student";
 import Prooptyp from "./Proptype";
+import Default_prop from "./default_prop";
 
 
 function App() {
@@ -20,9 +21,13 @@ function App() {
       <Student name="Shakil" age={23} isEmploye={false} /> */}
 
 
-      <Prooptyp name="Ranas" age="man" gender="Male" />
+      {/* <Prooptyp name="Ranas" age="man" gender="Male" /> */}
+
+      <Default_prop name="Iron-Mon" age={60} />
+      <Default_prop />
     </>
   );
 }
+
 
 export default App
