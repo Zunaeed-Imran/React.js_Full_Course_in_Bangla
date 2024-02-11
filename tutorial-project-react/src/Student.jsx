@@ -1,6 +1,8 @@
 
 
-// proops practice 
+//Basic proops practice
+// we use proops as JS object.
+
 
 function Student(proops) {
   return (

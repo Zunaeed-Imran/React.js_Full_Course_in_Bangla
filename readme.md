@@ -47,14 +47,5 @@
 - using proops sring can be in `name="string"` but number should be in `age={26}`
 
 ###### Done Task For Today
-- Practicing component card.
-- watchig basic react tutorial short video's
-- Making header component.
-- Making Footer Component.
-- Making list Component in main manu.
-- Making Card Component.
-- useing image in card component.
-- Applying CSS in Card Component.
-- Learning Proops.
-- practicing proops.
-- learning proop type.
+- Practicing proop type.
+- 
