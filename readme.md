@@ -46,10 +46,9 @@
 - using proops we can pass new value in the component.
 - using proops sring can be in `name="string"` but number should be in `age={26}`
 - Default Prop will can show default set value.
-
+- by prop calling we can call variable form other page.
 
 ###### Done Task For Today
-- Practicing proop type.
-- Learning Default Prop.
-- Practicing Default Prop.
+- Learning conditional rendering.
+- Practice Condational rendering using ternary operator.
 - 

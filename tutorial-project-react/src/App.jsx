@@ -5,6 +5,7 @@ import Card from "./card";
 import Student from "./Student";
 import Prooptyp from "./Proptype";
 import Default_prop from "./default_prop";
+import Greeting from "./UserGreeting";
 
 
 function App() {
@@ -23,8 +24,14 @@ function App() {
 
       {/* <Prooptyp name="Ranas" age="man" gender="Male" /> */}
 
-      <Default_prop name="Iron-Mon" age={60} />
-      <Default_prop />
+      {/* <Default_prop name="Iron-Mon" age={60} />
+      <Default_prop /> */}
+
+      {/* <Greeting/> */}
+
+
+      <Greeting isLoggedin={true} username="Imran"/>
+      
     </>
   );
 }
