@@ -6,7 +6,7 @@ import Student from "./Student";
 import Prooptyp from "./Proptype";
 import Default_prop from "./default_prop";
 import Greeting from "./UserGreeting";
-
+import Button from "./Button";
 
 function App() {
 
@@ -29,9 +29,12 @@ function App() {
 
       {/* <Greeting/> */}
 
-
-      <Greeting isLoggedin={true} username="Imran"/>
       
+      {/* <Greeting isLoggedin={true} username="Imran"/> */}
+      
+
+      <Button/>
+
     </>
   );
 }

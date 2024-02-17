@@ -28,6 +28,11 @@
 - than `npm run dev`
 - it will start the server.
 
+## List of learning by file name in this reppo.
+- `App.jsx` in that file we display  all file.
+- `Card.jsx` in that file 
+
+
 
 ## What was my fault and what i learn in this project.
 - i was forget to change directory to my new making react file and chack `pwd`
@@ -49,6 +54,7 @@
 - by prop calling we can call variable form other page.
 
 ###### Done Task For Today
-- Learning conditional rendering.
-- Practice Condational rendering using ternary operator.
+- Practicing Render list.
+- Making documentation of all practice file by naming.
+- Learning Click Event.
 - 
