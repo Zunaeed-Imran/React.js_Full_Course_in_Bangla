@@ -31,7 +31,17 @@
 
 ## List of learning by file name in this reppo.
 - `App.jsx` in that file we display  all file.
-- `Card.jsx` in that file 
+- `Card.jsx` in that file we learn how to add css style in card image, and add image.
+- `Student.jsx` in that file we learn using 'proops' proops is like agunment(string, num, boolean) value pass.
+- `Proptype.jsx` in that file we learn we can define prop type and if value is other type it show 
+    error in the browser console.
+- `default_prop.jsx` in this file we learn if we set default value in prop, and don't give any value in prop 
+    automatically show default value.
+- `UserGreeting.jsx` in this file we learn prop condational rendering by true false, we also use const value
+    in this practice file.
+- `UserGreeting.jsx` also in that file we use prop value and Boolean from 'App.jsx page'.
+- `Button.jsx` we don't finish practice this file from bro code (Click event).
+
 
 
 
@@ -55,7 +65,4 @@
 - by prop calling we can call variable form other page.
 
 ###### Done Task For Today
-- Practicing Render list.
-- Making documentation of all practice file by naming.
-- Learning Click Event.
-- 
+- i will learn prop destructuring(from anisul islam).
