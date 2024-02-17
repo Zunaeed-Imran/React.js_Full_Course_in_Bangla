@@ -22,6 +22,7 @@
 - <b>now environment is ready</b>.
 - we export because what we want use in the future in every component.
 - we use import because what we take from component.
+- [Nodejs install from ubuntu](https://youtu.be/NS3aTgKztis?si=IPOV09zYbFjHcmj-)
 
 #### Restart Server.
 - first i need to ensure to right `pwd`
