@@ -31,6 +31,8 @@
 
 ## List of learning by file name in this reppo.
 - `App.jsx` in that file we display  all file.
+- `practice1.jsx` from that file we practice inline CSS, and also use Public folder CSS ,and Source 
+    Folder CSS, also use const value.
 - `Card.jsx` in that file we learn how to add css style in card image, and add image.
 - `Student.jsx` in that file we learn using 'proops' proops is like agunment(string, num, boolean) value pass.
 - `Proptype.jsx` in that file we learn we can define prop type and if value is other type it show 
@@ -41,7 +43,11 @@
     in this practice file.
 - `UserGreeting.jsx` also in that file we use prop value and Boolean from 'App.jsx page'.
 - `Button.jsx` we don't finish practice this file from bro code (Click event).
-
+- `destruc.jsx` from this file we use Destructuring, with destructuring we don't have to use `prop.` 
+    we can just call the name of the variable. 
+- `mapping_data.json` we take json for storing data, we learn how to write json file.
+- `mapping_data.jsx` in this file we Display the josn file data by array style.
+- `mapping.jsx` in this file we display the json file data using map method.
 
 
 
@@ -63,6 +69,14 @@
 - using proops sring can be in `name="string"` but number should be in `age={26}`
 - Default Prop will can show default set value.
 - by prop calling we can call variable form other page.
+- Remember we have to import the json file where we want to display the json file data.
+
 
 ###### Done Task For Today
-- i will learn prop destructuring(from anisul islam).
+- Learning prop destructuring.
+- Practicing destructuring.
+- Learning Mapping data componant.
+- practicing json file.
+- Practicing json file data display using array.
+- Practicing Mapping data display from json file.
+- 
