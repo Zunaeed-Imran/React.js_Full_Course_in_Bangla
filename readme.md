@@ -48,7 +48,8 @@
 - `mapping_data.json` we take json for storing data, we learn how to write json file.
 - `mapping_data.jsx` in this file we Display the josn file data by array style.
 - `mapping.jsx` in this file we display the json file data using map method.
-
+- `mapping_card.jsx` this file is for practicing mapping json file data main practice file is `mapping.jsx`
+-  
 
 
 ## What was my fault and what i learn in this project.
@@ -70,13 +71,9 @@
 - Default Prop will can show default set value.
 - by prop calling we can call variable form other page.
 - Remember we have to import the json file where we want to display the json file data.
+- i learn how to all inside file from another file when i was practicing json data file mapping.
 
 
 ###### Done Task For Today
-- Learning prop destructuring.
-- Practicing destructuring.
-- Learning Mapping data componant.
-- practicing json file.
-- Practicing json file data display using array.
-- Practicing Mapping data display from json file.
+- Practicing Mapping data Component.
 - 

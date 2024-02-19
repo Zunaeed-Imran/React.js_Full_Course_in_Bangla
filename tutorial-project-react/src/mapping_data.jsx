@@ -1,3 +1,4 @@
+// Actually we show data by array.
 // with this practice file we show the data from json file, also use prop destructuring.
 // `Data` is a built in name what we used to call to display json file data.
 
