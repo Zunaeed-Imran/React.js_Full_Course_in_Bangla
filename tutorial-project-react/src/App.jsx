@@ -12,6 +12,7 @@ import Destructuring from './destruc';
 import Mapping from './mapping_data';
 import Map from './mapping';
 import Mapp from './mapping';
+import Nasted_map from './nasted_map';
 
 
 
@@ -45,8 +46,9 @@ function App() {
 
       {/* <Mapping/> */}
 
-      <Mapp/>
+      {/* <Mapp/> */}
       
+      <Nasted_map/>
     </>
   );
 }

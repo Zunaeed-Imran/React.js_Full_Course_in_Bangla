@@ -12,4 +12,4 @@ function Mapping_card(prop) {
 }
 
 
-export default Mapping_card
+export default Mapping_card;

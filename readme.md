@@ -49,7 +49,7 @@
 - `mapping_data.jsx` in this file we Display the josn file data by array style.
 - `mapping.jsx` in this file we display the json file data using map method.
 - `mapping_card.jsx` this file is for practicing mapping json file data main practice file is `mapping.jsx`
--  
+- `nasted_map.jsx` in this file we practice nasted mapping json data.
 
 
 ## What was my fault and what i learn in this project.
@@ -76,4 +76,7 @@
 
 ###### Done Task For Today
 - Practicing Mapping data Component.
+- learn mapping data with unique id
+- learning nasted mapping.
+- Practicing nasted mapping.
 - 
