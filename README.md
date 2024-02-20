@@ -92,4 +92,4 @@
 - install icon in my project.
 - Practicing font-awesome icon in react.
 - styling fontawesome icon in react.
-- 
+- `ls -a` will show git folder directory 
