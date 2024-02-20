@@ -13,6 +13,7 @@ import Mapping from './mapping_data';
 import Map from './mapping';
 import Mapp from './mapping';
 import Nasted_map from './nasted_map';
+import Icon from './Icon';
 
 
 
@@ -48,11 +49,12 @@ function App() {
 
       {/* <Mapp/> */}
 
-      <Nasted_map />
+      {/* <Nasted_map /> */}
 
       {/* <Class_practice /> */}
 
 
+      <Icon/>
     </>
   );
 }

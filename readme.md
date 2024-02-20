@@ -56,7 +56,8 @@
 - `nasted_map.jsx` in this file we practice nasted mapping json data.
 - `class_component.jsx` in this file we practice class component, but regularly we use functional 
     component, we practice it for learning purpose(and i have to display it from 'main.jsx' because createRoot is in 'main.jsx' not in 'App.jsx').
-- 
+- `Icon.jsx` in this file we practice icon in react (before we use icon we have to install 'icon' package).
+
 
 ## What was my fault and what i learn in this project.
 - i was forget to change directory to my new making react file and chack `pwd`
@@ -88,4 +89,6 @@
 - i learn react component under the hood.
 - add react developer tool and extension in my chrome & vs code.
 - learning useing react icon.
+- install icon in my project.
+- Practicing icon styling in react.
 - 
