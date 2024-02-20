@@ -24,11 +24,14 @@
 - we use import because what we take from component.
 - [Nodejs install from ubuntu](https://youtu.be/NS3aTgKztis?si=IPOV09zYbFjHcmj-)
 
-#### Restart Server.
+#### Restart Server and some shortcut.
 - first i need to ensure to right `pwd`
 - than `npm run dev`
 - it will start the server.
 - [if clone a React reppo i have to `npm install` in terminal]
+- `rcc` is command for class component make.
+- `rfc` is for functional component make.
+
 
 ## List of learning by file name in this reppo.
 - `App.jsx` in that file we display  all file.
@@ -51,7 +54,9 @@
 - `mapping.jsx` in this file we display the json file data using map method.
 - `mapping_card.jsx` this file is for practicing mapping json file data main practice file is `mapping.jsx`
 - `nasted_map.jsx` in this file we practice nasted mapping json data.
-
+- `class_component.jsx` in this file we practice class component, but regularly we use functional 
+    component, we practice it for learning purpose(and i have to display it from 'main.jsx' because createRoot is in 'main.jsx' not in 'App.jsx').
+- 
 
 ## What was my fault and what i learn in this project.
 - i was forget to change directory to my new making react file and chack `pwd`
@@ -73,11 +78,14 @@
 - by prop calling we can call variable form other page.
 - Remember we have to import the json file where we want to display the json file data.
 - i learn how to all inside file from another file when i was practicing json data file mapping.
-
+- i learn class component, it's similar like functional component.
 
 ###### Done Task For Today
-- Practicing Mapping data Component.
-- learn mapping data with unique id
-- learning nasted mapping.
-- Practicing nasted mapping.
+- learning class component in react.
+- Practicing class component.
+- learning using prop in class component.
+- practicing using prop in class component.
+- i learn react component under the hood.
+- add react developer tool and extension in my chrome & vs code.
+- learning useing react icon.
 - 

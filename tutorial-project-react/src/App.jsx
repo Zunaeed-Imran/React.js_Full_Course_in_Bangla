@@ -47,8 +47,12 @@ function App() {
       {/* <Mapping/> */}
 
       {/* <Mapp/> */}
-      
-      <Nasted_map/>
+
+      <Nasted_map />
+
+      {/* <Class_practice /> */}
+
+
     </>
   );
 }
