@@ -28,6 +28,7 @@
 - first i need to ensure to right `pwd`
 - than `npm run dev`
 - it will start the server.
+- [if clone a React reppo i have to `npm install` in terminal]
 
 ## List of learning by file name in this reppo.
 - `App.jsx` in that file we display  all file.
