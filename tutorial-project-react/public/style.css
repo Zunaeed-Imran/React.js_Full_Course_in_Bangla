@@ -56,3 +56,16 @@
 body{
   background-color: #a7aeb5;
 }
+
+.facebook{
+  font-size: 3rem;
+  color:#1732cf;
+}
+.youtube{
+  font-size: 3rem;
+  color: #b82328;
+}
+.twitter{
+  font-size: 3rem;
+  color: #346fad;
+}

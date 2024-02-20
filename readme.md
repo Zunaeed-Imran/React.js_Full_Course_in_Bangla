@@ -90,5 +90,6 @@
 - add react developer tool and extension in my chrome & vs code.
 - learning useing react icon.
 - install icon in my project.
-- Practicing icon styling in react.
+- Practicing font-awesome icon in react.
+- styling fontawesome icon in react.
 - 
