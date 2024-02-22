@@ -15,6 +15,7 @@ import Mapp from './mapping';
 import Nasted_map from './nasted_map';
 import Icon from './Icon';
 import React_boostrap from './React_boostrap';
+import State from './State';
 
 
 
@@ -56,7 +57,9 @@ function App() {
 
       {/* <Icon/> */}
 
-      <React_boostrap />
+      {/* <React_boostrap /> */}
+
+      <State/>
     </>
   );
 }

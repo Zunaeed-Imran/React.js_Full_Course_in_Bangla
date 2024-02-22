@@ -68,7 +68,7 @@
 - `Icon.jsx` in this file we practice icon in react (before we use icon we have
   to install 'icon' package).
 - `React_boostrap.jsx` in this file we practice boostrap in React also add inline css style.
-- 
+- `State.jsx` in this file we practice state , setState and event handler (using class not function,).
 
 ## What was my fault and what i learn in this project.
 
@@ -102,4 +102,6 @@
 
 - Learning react boostrap.
 - Practicing boostrap in React.
+- Learning state, setState and event handler.
+- Practicing state, setState and event handler.
 - 
