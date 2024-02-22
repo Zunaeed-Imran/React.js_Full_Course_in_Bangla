@@ -14,6 +14,7 @@ import Map from './mapping';
 import Mapp from './mapping';
 import Nasted_map from './nasted_map';
 import Icon from './Icon';
+import React_boostrap from './React_boostrap';
 
 
 
@@ -53,8 +54,9 @@ function App() {
 
       {/* <Class_practice /> */}
 
+      {/* <Icon/> */}
 
-      <Icon/>
+      <React_boostrap />
     </>
   );
 }

@@ -1,17 +1,18 @@
 ## React.js Full Course in Bangla.
 
 #### Lectured by: Anisul Islam Rubel & Bro Code.
+
 <hr>
 
 #### Basic React Knowledge
-- `node_modules` folder is external library and package's, build tool's,
-    utility library etc, it's just contain external library our project relies on.
+
+- `node_modules` folder is external library and package's, build tool's, utility
+  library etc, it's just contain external library our project relies on.
 - we import app.jsx to main.jsx so that we can access App.jsx.
 - remember we need to export statement in the App.jxs file.
 
-
-
 #### Step By Step Environment setup.
+
 - First i install node js,
 - than change directory nad run the code `npm create vite@latest`,
 - than i choose `react`,
@@ -25,6 +26,7 @@
 - [Nodejs install from ubuntu](https://youtu.be/NS3aTgKztis?si=IPOV09zYbFjHcmj-)
 
 #### Restart Server and some shortcut.
+
 - first i need to ensure to right `pwd`
 - than `npm run dev`
 - it will start the server.
@@ -32,64 +34,72 @@
 - `rcc` is command for class component make.
 - `rfc` is for functional component make.
 
-
 ## List of learning by file name in this reppo.
-- `App.jsx` in that file we display  all file.
-- `practice1.jsx` from that file we practice inline CSS, and also use Public folder CSS ,and Source 
-    Folder CSS, also use const value.
-- `Card.jsx` in that file we learn how to add css style in card image, and add image.
-- `Student.jsx` in that file we learn using 'proops' proops is like agunment(string, num, boolean) value pass.
-- `Proptype.jsx` in that file we learn we can define prop type and if value is other type it show 
-    error in the browser console.
-- `default_prop.jsx` in this file we learn if we set default value in prop, and don't give any value in prop 
-    automatically show default value.
-- `UserGreeting.jsx` in this file we learn prop condational rendering by true false, we also use const value
-    in this practice file.
-- `UserGreeting.jsx` also in that file we use prop value and Boolean from 'App.jsx page'.
+
+- `App.jsx` in that file we display all file.
+- `practice1.jsx` from that file we practice inline CSS, and also use Public
+  folder CSS ,and Source Folder CSS, also use const value.
+- `Card.jsx` in that file we learn how to add css style in card image, and add
+  image.
+- `Student.jsx` in that file we learn using 'proops' proops is like
+  agunment(string, num, boolean) value pass.
+- `Proptype.jsx` in that file we learn we can define prop type and if value is
+  other type it show error in the browser console.
+- `default_prop.jsx` in this file we learn if we set default value in prop, and
+  don't give any value in prop automatically show default value.
+- `UserGreeting.jsx` in this file we learn prop condational rendering by true
+  false, we also use const value in this practice file.
+- `UserGreeting.jsx` also in that file we use prop value and Boolean from
+  'App.jsx page'.
 - `Button.jsx` we don't finish practice this file from bro code (Click event).
-- `destruc.jsx` from this file we use Destructuring, with destructuring we don't have to use `prop.` 
-    we can just call the name of the variable. 
-- `mapping_data.json` we take json for storing data, we learn how to write json file.
+- `destruc.jsx` from this file we use Destructuring, with destructuring we don't
+  have to use `prop.` we can just call the name of the variable.
+- `mapping_data.json` we take json for storing data, we learn how to write json
+  file.
 - `mapping_data.jsx` in this file we Display the josn file data by array style.
 - `mapping.jsx` in this file we display the json file data using map method.
-- `mapping_card.jsx` this file is for practicing mapping json file data main practice file is `mapping.jsx`
+- `mapping_card.jsx` this file is for practicing mapping json file data main
+  practice file is `mapping.jsx`
 - `nasted_map.jsx` in this file we practice nasted mapping json data.
-- `class_component.jsx` in this file we practice class component, but regularly we use functional 
-    component, we practice it for learning purpose(and i have to display it from 'main.jsx' because createRoot is in 'main.jsx' not in 'App.jsx').
-- `Icon.jsx` in this file we practice icon in react (before we use icon we have to install 'icon' package).
-
+- `class_component.jsx` in this file we practice class component, but regularly
+  we use functional component, we practice it for learning purpose(and i have to
+  display it from 'main.jsx' because createRoot is in 'main.jsx' not in
+  'App.jsx').
+- `Icon.jsx` in this file we practice icon in react (before we use icon we have
+  to install 'icon' package).
+- `React_boostrap.jsx` in this file we practice boostrap in React also add inline css style.
+- 
 
 ## What was my fault and what i learn in this project.
+
 - i was forget to change directory to my new making react file and chack `pwd`
 - in function return i take <div> to take multiple string.
 - and i can use () in return funtion.
 - external CSS file should be on Public folder.
-- i was not make css file in public folder and link to html file,
-  that's why it wasn't work.
-- for scr style file i have to import form that file i use in css.  
+- i was not make css file in public folder and link to html file, that's why it
+  wasn't work.
+- for scr style file i have to import form that file i use in css.
 - in function return we use parenthesis `()`;
-- if i need js const in function i need to take const or variable in the function `{}` 
+- if i need js const in function i need to take const or variable in the
+  function `{}`
 - in `{}` we can use js builtIn function also.
 - we use javascript function like uppercase function.
-- if we use image in react we have to import image first, than use in js variable name by calling.
+- if we use image in react we have to import image first, than use in js
+  variable name by calling.
 - we use proops as JS object.
 - using proops we can pass new value in the component.
-- using proops sring can be in `name="string"` but number should be in `age={26}`
+- using proops sring can be in `name="string"` but number should be in
+  `age={26}`
 - Default Prop will can show default set value.
 - by prop calling we can call variable form other page.
-- Remember we have to import the json file where we want to display the json file data.
-- i learn how to all inside file from another file when i was practicing json data file mapping.
+- Remember we have to import the json file where we want to display the json
+  file data.
+- i learn how to all inside file from another file when i was practicing json
+  data file mapping.
 - i learn class component, it's similar like functional component.
 
 ###### Done Task For Today
-- learning class component in react.
-- Practicing class component.
-- learning using prop in class component.
-- practicing using prop in class component.
-- i learn react component under the hood.
-- add react developer tool and extension in my chrome & vs code.
-- learning useing react icon.
-- install icon in my project.
-- Practicing font-awesome icon in react.
-- styling fontawesome icon in react.
-- `ls -a` will show git folder directory 
+
+- Learning react boostrap.
+- Practicing boostrap in React.
+- 
