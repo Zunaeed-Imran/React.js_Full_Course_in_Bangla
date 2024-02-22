@@ -70,6 +70,7 @@
 - `React_boostrap.jsx` in this file we practice boostrap in React also add inline css style.
 - `State.jsx` in this file we practice state , setState and event handler (using class not function,)
     (We make count app in this practice file).
+- 'condational_rendering' in that file we practice Condational rendering, ternaru, short circuit.    
 
 ## What was my fault and what i learn in this project.
 
@@ -105,4 +106,4 @@
 - Practicing boostrap in React.
 - Learning state, setState and event handler.
 - Practicing state, setState and event handler.
-- 
+- Learning Conditional Rendering, ternary, short circuit.

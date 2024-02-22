@@ -16,6 +16,8 @@ import Nasted_map from './nasted_map';
 import Icon from './Icon';
 import React_boostrap from './React_boostrap';
 import State from './State';
+import Condational_rendering from './Condational_rendering/index';
+
 
 
 
@@ -59,7 +61,9 @@ function App() {
 
       {/* <React_boostrap /> */}
 
-      <State/>
+      {/* <State/> */}
+
+      <Condational_rendering />
     </>
   );
 }
