@@ -17,6 +17,7 @@ import Icon from './Icon';
 import React_boostrap from './React_boostrap';
 import State from './State';
 import Condational_rendering from './Condational_rendering/index';
+import Ternary from './Condational_rendering/Ternary';
 
 
 
@@ -63,7 +64,9 @@ function App() {
 
       {/* <State/> */}
 
-      <Condational_rendering />
+      {/* <Condational_rendering /> */}
+
+      <Ternary/>
     </>
   );
 }
