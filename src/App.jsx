@@ -20,6 +20,8 @@ import Condational_rendering from './Condational_rendering/index';
 import Ternary from './Condational_rendering/Ternary';
 import Event_handle_class from './Event_Handeler';
 import Binding_event from './Binding_event';
+import Hook_useState from './Hook_useState';
+import Hook_increment1 from './Hook_useState/index1';
 
 
 
@@ -72,7 +74,11 @@ function App() {
 
       {/* <Event_handle_class/> */}
 
-      <Binding_event/>
+      {/* <Binding_event/> */}
+
+      <Hook_useState />
+      
+      {/* <Hook_increment1/> */}
     </>
   );
 }
