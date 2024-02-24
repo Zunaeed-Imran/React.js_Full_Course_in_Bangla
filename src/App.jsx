@@ -22,6 +22,8 @@ import Event_handle_class from './Event_Handeler';
 import Binding_event from './Binding_event';
 import Hook_useState from './Hook_useState';
 import Hook_increment1 from './Hook_useState/index1';
+import Update_State from './Update_state';
+import Update_State2 from './Update_state/index2';
 
 
 
@@ -76,9 +78,13 @@ function App() {
 
       {/* <Binding_event/> */}
 
-      <Hook_useState />
+      {/* <Hook_useState /> */}
       
       {/* <Hook_increment1/> */}
+
+      {/* <Update_State/> */}
+
+      <Update_State2/>
     </>
   );
 }

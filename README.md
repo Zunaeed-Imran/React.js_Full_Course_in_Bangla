@@ -73,7 +73,8 @@
 - 'condational_rendering' in that file we practice Condational rendering, ternary, short circuit (). 
 - 'Event_Handeler' from this file we practice OnChange Event Handler(it show the input text in realtime).  
 - 'Hook_useState' in this folder we larn Different between `Functional and class component`
-
+- 'Update_state' in this folder we learn previous example `Functional component` 
+  'useState' use different way or update way.
 
 ## What was my fault and what i learn in this project.
 
@@ -118,4 +119,7 @@
 - Learning useState hook.
 - practicing useState hook by using class component.
 - practicing useState hook by using function component.
+- Revision my today task.
+- Learning update state.
+- Practicing Update state using function component using aero function value.
 - 
