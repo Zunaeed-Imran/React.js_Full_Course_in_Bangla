@@ -68,7 +68,7 @@
 - `Icon.jsx` in this file we practice icon in react (before we use icon we have
   to install 'icon' package).
 - `React_boostrap.jsx` in this file we practice boostrap in React also add inline css style.
-- `State.jsx` in this file we practice state , setState and event handler (using class not function,)
+- 'Count_App' we make it in file `State.jsx` in this file we practice state , setState and event handler (using class not function,)
     (We make count app in this practice file).
 - 'condational_rendering' in that file we practice Condational rendering, ternary, short circuit (). 
 - 'Event_Handeler' from this file we practice OnChange Event Handler(it show the input text in realtime).  
@@ -111,4 +111,6 @@
 - Practicing Conditional Rendering, ternary, short circuit.
 - Learning Event Handler | onChange | onClick.
 - Practicing on change event Handler by using class
+- Learning Event handler binding.
+- Practicing Event handler binding.
 - 

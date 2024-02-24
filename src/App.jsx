@@ -15,10 +15,11 @@ import Mapp from './mapping';
 import Nasted_map from './nasted_map';
 import Icon from './Icon';
 import React_boostrap from './React_boostrap';
-import State from './State';
+import State from './Count_App/State';
 import Condational_rendering from './Condational_rendering/index';
 import Ternary from './Condational_rendering/Ternary';
 import Event_handle_class from './Event_Handeler';
+import Binding_event from './Binding_event';
 
 
 
@@ -69,7 +70,9 @@ function App() {
 
       {/* <Ternary/> */}
 
-      <Event_handle_class/>
+      {/* <Event_handle_class/> */}
+
+      <Binding_event/>
     </>
   );
 }
