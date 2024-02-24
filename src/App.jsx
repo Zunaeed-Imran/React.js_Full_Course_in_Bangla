@@ -18,6 +18,7 @@ import React_boostrap from './React_boostrap';
 import State from './State';
 import Condational_rendering from './Condational_rendering/index';
 import Ternary from './Condational_rendering/Ternary';
+import Event_handle_class from './Event_Handeler';
 
 
 
@@ -66,7 +67,9 @@ function App() {
 
       {/* <Condational_rendering /> */}
 
-      <Ternary/>
+      {/* <Ternary/> */}
+
+      <Event_handle_class/>
     </>
   );
 }
