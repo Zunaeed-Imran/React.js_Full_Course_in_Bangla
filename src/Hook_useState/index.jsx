@@ -24,6 +24,7 @@ export default function Hook_useState() {
   return (
 
     <div>
+      <h3>We Use Functional Component in this example</h3>
       <h1>{count2}</h1>
       <button onClick={Increment2}>Increment</button>
     </div>

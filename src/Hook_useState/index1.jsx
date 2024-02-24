@@ -25,6 +25,7 @@ export default class Hook_increment1 extends Component {
   render() {
     return (
       <div>
+        <h3>We use Class Component in this Example</h3>
         <h1>{this.state.count1}</h1>
         <button onClick={this.Increment}>Increment</button>
       </div>
