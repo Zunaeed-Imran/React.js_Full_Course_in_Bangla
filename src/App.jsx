@@ -26,7 +26,7 @@ import Update_State from './Update_state';
 import Update_State2 from './Update_state/index2';
 import Event_bubbling from './Event_bubbling';
 import React_Form from './React_form';
-
+import React from './React_form/useStateObject';
 
 
 
@@ -81,7 +81,7 @@ function App() {
       {/* <Binding_event/> */}
 
       {/* <Hook_useState /> */}
-      
+
       {/* <Hook_increment1/> */}
 
       {/* <Update_State/> */}
@@ -90,7 +90,9 @@ function App() {
 
       {/* <Event_bubbling/> */}
 
-      <React_Form/>
+      {/* <React_Form/> */}
+
+      <UseStateObject />
     </>
   );
 }
