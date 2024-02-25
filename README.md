@@ -75,6 +75,7 @@
 - 'Hook_useState' in this folder we larn Different between `Functional and class component`
 - 'Update_state' in this folder we learn previous example `Functional component` 
   'useState' use different way or update way.
+- 'Event_bubbling'  in this folder we will learn how to stop calling parent component if we call chaild.(if we stopPropagation child will not call parent)  
 
 ## What was my fault and what i learn in this project.
 
@@ -111,15 +112,8 @@
 
 ###### Done Task For Today
 
-- Practicing Conditional Rendering, ternary, short circuit.
-- Learning Event Handler | onChange | onClick.
-- Practicing on change event Handler by using class
-- Learning Event handler binding.
-- Practicing Event handler binding.
-- Learning useState hook.
-- practicing useState hook by using class component.
-- practicing useState hook by using function component.
-- Revision my today task.
-- Learning update state.
-- Practicing Update state using function component using aero function value.
+- Learning Event Bubbling.
+- Practicing Event Bubling(Not calling parent if we call chaild.)
+- Learning Controlled component.
+- Practicing Controlled component.
 - 

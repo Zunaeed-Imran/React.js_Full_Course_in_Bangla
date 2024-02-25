@@ -24,6 +24,7 @@ import Hook_useState from './Hook_useState';
 import Hook_increment1 from './Hook_useState/index1';
 import Update_State from './Update_state';
 import Update_State2 from './Update_state/index2';
+import Event_bubbling from './Event_bubbling';
 
 
 
@@ -84,7 +85,9 @@ function App() {
 
       {/* <Update_State/> */}
 
-      <Update_State2/>
+      {/* <Update_State2/> */}
+
+      <Event_bubbling/>
     </>
   );
 }
