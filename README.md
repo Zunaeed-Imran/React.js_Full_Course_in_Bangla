@@ -76,6 +76,7 @@
 - 'Update_state' in this folder we learn previous example `Functional component` 
   'useState' use different way or update way.
 - 'Event_bubbling'  in this folder we will learn how to stop calling parent component if we call chaild.(if we stopPropagation child will not call parent)  
+- 'React_form' in this folder we will learn useing Form in React and we control `state` and show in 'input value' (also practice module CSS in form).
 
 ## What was my fault and what i learn in this project.
 
@@ -107,13 +108,13 @@
 - i was using constructor function out side of class component and that was my fault.
 - i was using two return and it show error i should have used one return.
 - we also can use ternary operator in the return directely.
-
-
+- i learn in form if i use `required` without data passing form can't be submitted.
+- i learn with `ctrl + F5` i can clear cash in the browser.
 
 ###### Done Task For Today
 
 - Learning Event Bubbling.
-- Practicing Event Bubling(Not calling parent if we call chaild.)
+- Practicing Event Bubling(stopPropagation)
 - Learning Controlled component.
-- Practicing Controlled component.
+- Practicing Controlled component react form.
 - 

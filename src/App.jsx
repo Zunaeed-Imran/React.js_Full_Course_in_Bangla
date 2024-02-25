@@ -25,6 +25,7 @@ import Hook_increment1 from './Hook_useState/index1';
 import Update_State from './Update_state';
 import Update_State2 from './Update_state/index2';
 import Event_bubbling from './Event_bubbling';
+import React_Form from './React_form';
 
 
 
@@ -87,7 +88,9 @@ function App() {
 
       {/* <Update_State2/> */}
 
-      <Event_bubbling/>
+      {/* <Event_bubbling/> */}
+
+      <React_Form/>
     </>
   );
 }
