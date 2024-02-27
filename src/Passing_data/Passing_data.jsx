@@ -10,7 +10,7 @@ import Child from './Child'
 
 
 export default function Passing_data() {
-  const data = "i am from parent component";
+  const Pdata = "i am from parent component";
 
 
   const handleChildData = (childData) => {
@@ -19,7 +19,7 @@ export default function Passing_data() {
 
   return (
 
-    <Child data={data} onCHildData={handleChildData} />
+    <Child Pdata={Pdata} onCHildData={handleChildData} />
     
   )
 }

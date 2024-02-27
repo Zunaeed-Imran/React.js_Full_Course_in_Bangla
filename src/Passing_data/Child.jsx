@@ -5,15 +5,15 @@ import React from 'react'
 const Child = (props) => {
 
    
-  const data = "I am from Child Component";
+  const ChildData = "I am from Child Component";
 
-  // props.onChildData(data);
+  props.onChildData(data);
 
   return (
     <div>
       <p>i am child component</p>
-      <p>{props.data}</p>
-      <p>{props.onChildData(data)}</p>
+      <p>{props.Pdata}</p>
+      <p>{props.onChildData(ChildData)}</p>
     </div>
   );
 }
