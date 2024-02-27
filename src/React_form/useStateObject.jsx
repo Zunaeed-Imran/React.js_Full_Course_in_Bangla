@@ -5,30 +5,32 @@
 import React, { useState } from 'react';
 
 export default function UseStateObject() {
+
   // making useState() and give it to input value.
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
+  const [user, setUser] = useState({name: '', email: '', password: ''})
+
+  // distructuring the variable
+  const{name, email, password} = user
+
 
   // making function for onChanged event
-  const nameDisplay = e => {
-    setName(e.target.value);
-  };
-  const emailDisplay = e => {
-    setEmail(e.target.value);
-  };
-  const passwordDisplay = e => {
-    setPassword(e.target.value);
-  };
-  const handleSubmit = e => {
+  const handleChange = (e) => {
+    const filedName = e.target.name;
+    if (filedName === 'name') {
+      setUser({name: e.target.value, email, password})
+    } else if (filedName === 'email') {
+      setUser({name, email: e.target.value, password})
+    } else if (filedName === 'password') {
+      setUser({name, email, password: e.target.value})
+    }
+  } 
+
+
+  const handleSubmit = (e) => {
     console.log('Submitted the form');
-    // we take variable for info show
-    let userInfo = {
-      name: name,
-      email: email,
-      password: password,
-    };
-    console.log(userInfo);
+
+    
+    console.log(user);
   };
 
   return (
@@ -42,7 +44,7 @@ export default function UseStateObject() {
             type="text"
             name="name"
             id="name"
-            onChange={nameDisplay}
+            onChange={handleChange}
             value={name}
             required
           />
@@ -53,7 +55,7 @@ export default function UseStateObject() {
             type="email"
             name="email"
             id="email"
-            onChange={emailDisplay}
+            onChange={handleChange}
             value={email}
             required
           />
@@ -64,7 +66,7 @@ export default function UseStateObject() {
             type="password"
             name="password"
             id="password"
-            onChange={passwordDisplay}
+            onChange={handleChange}
             value={password}
             required
           />
@@ -76,4 +78,9 @@ export default function UseStateObject() {
     </div>
   );
 }
+
+
+
+
+
 

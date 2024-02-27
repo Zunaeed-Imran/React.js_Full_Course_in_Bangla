@@ -113,9 +113,5 @@
 
 ###### Done Task For Today
 
-- Learning Event Bubbling.
-- Practicing Event Bubling(stopPropagation)
-- Learning Controlled component.
-- Practicing Controlled component react form.
-- Learning useSatate with Object.
-- Practicing useSatate with Object.
+- i have some problem with useSatate with Object so i was practicing.
+- 

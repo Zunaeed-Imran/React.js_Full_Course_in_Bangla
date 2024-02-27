@@ -1,5 +1,5 @@
 ## what we earn in this folder
-### index.jsx we practice it by using basic form in react. 
+### `index.jsx` we practice it by using basic form in react. 
 - in this folder we will practice Form in React.
 - in form if i use `required` without data passing form can't be submitted.
 - making useState() and give it to input value.
@@ -7,5 +7,6 @@
 - we take variable for info show  
 
 
-### useStateObject.jsx in this file we practice (state object in form)
+### `useStateObject.jsx` in this file we practice (state object in form)
+- we will learn how use object in usestate [useState + Object]
 - 

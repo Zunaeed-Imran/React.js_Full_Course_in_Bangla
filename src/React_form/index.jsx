@@ -11,16 +11,16 @@ export default function React_Form() {
   const [password, setPassword] = useState('');
 
   // making function for onChanged event
-  const nameDisplay = e => {
+  const nameDisplay = (e) => {
     setName(e.target.value);
   };
-  const emailDisplay = e => {
+  const emailDisplay = (e) => {
     setEmail(e.target.value);
   };
   const passwordDisplay = e => {
     setPassword(e.target.value);
   };
-  const handleSubmit = e => {
+  const handleSubmit = (e) => {
     console.log('Submitted the form');
 // we take variable for info show    
     let userInfo = {
