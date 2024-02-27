@@ -1,0 +1,6 @@
+## `Passing_data.jsx`
+- we will learn passing data from child to parent component in this example.
+- we will learn state lifting.
+- we use ES6 function in the child.jsx file.
+- we also practice prop for remainder how it work.
+- we will use "method not prop" for child to parent.

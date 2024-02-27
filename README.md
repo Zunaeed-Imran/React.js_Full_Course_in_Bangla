@@ -77,6 +77,7 @@
   'useState' use different way or update way.
 - 'Event_bubbling'  in this folder we will learn how to stop calling parent component if we call chaild.(if we stopPropagation child will not call parent)  
 - 'React_form' in this folder we will learn useing Form in React and we control `state` and show in 'input value' (also practice module CSS in form).
+- 'Passing_data' from this folder we will learn passing data from child to parent.
 
 ## What was my fault and what i learn in this project.
 
@@ -114,4 +115,7 @@
 ###### Done Task For Today
 
 - i have some problem with useSatate with Object so i was practicing.
+- i am learning passing data from child to parent component.
+- i am practicing passing data from child to parent component.
+- i am learning state lifting.
 - 

@@ -27,6 +27,7 @@ import Update_State2 from './Update_state/index2';
 import Event_bubbling from './Event_bubbling';
 import React_Form from './React_form';
 import React from './React_form/useStateObject';
+import Passing_data from './Passing_data/Passing_data';
 
 
 
@@ -92,7 +93,9 @@ function App() {
 
       {/* <React_Form/> */}
 
-      <UseStateObject />
+      {/* <UseStateObject /> */}
+
+      <Passing_data/>
     </>
   );
 }
