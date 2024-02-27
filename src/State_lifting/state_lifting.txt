@@ -1,0 +1,5 @@
+## `State_lifting` from this file we learn
+- we learn how to display without export function in hte same page it work only.
+- we also send data child to parent component.
+- we also learn how to called by prop in the same page but not use 'export default'
+- 
