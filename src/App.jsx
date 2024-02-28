@@ -29,6 +29,8 @@ import React_Form from './React_form';
 import React from './React_form/useStateObject';
 import Passing_data from './Passing_data/Passing_data';
 import State_lifting from './State_lifting/State_lifting';
+import Home from './Condational_rendering/Home';
+import Home2 from './State_lifting_principle/Home2';
 
 
 
@@ -98,7 +100,9 @@ function App() {
 
       {/* <Passing_data/> */}
 
-      <State_lifting/>
+      {/* <State_lifting/> */}
+
+      <Home2/>
     </>
   );
 }

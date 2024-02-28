@@ -78,7 +78,8 @@
 - 'Event_bubbling'  in this folder we will learn how to stop calling parent component if we call chaild.(if we stopPropagation child will not call parent)  
 - 'React_form' in this folder we will learn useing Form in React and we control `state` and show in 'input value' (also practice module CSS in form).
 - 'Passing_data' from this folder we will learn passing data from child to parent.
-- 'State_lifting' from this file we learn state lifting like passing data
+- 'State_lifting' from this file we learn state lifting like passing data.
+- 'State_lifting_principal' from this file we learn data passing child to parent but complex, and todo practice.
 
 ## What was my fault and what i learn in this project.
 
@@ -112,13 +113,12 @@
 - we also can use ternary operator in the return directely.
 - i learn in form if i use `required` without data passing form can't be submitted.
 - i learn with `ctrl + F5` i can clear cash in the browser.
+- i was using `{}` in map function, and i was wrong i should use `()` 
+- ([...todo]) we use sprade operator use it will show also before all todo and right now todo.
 
 ###### Done Task For Today
 
-- i have some problem with useSatate with Object so i was practicing.
-- learning passing data from child to parent component.
-- practicing passing data from child to parent component.
-- learning state lifting.
-- Practicing State lifting.
-- Revision basic problem solving.
+- learning state lifting principle.
+- Practicing state lifting principal.
+- revision some previous practice in react.
 - 

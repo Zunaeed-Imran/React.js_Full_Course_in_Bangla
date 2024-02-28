@@ -1,0 +1,8 @@
+## `state_lifting_main.jsx` we will practice from this file.
+- from this file we will lerarn data passing child to parent a complex example.
+- we send data from "Home.jsx" to 'Todo.jsx'.
+- we practice basic todo in this practice folder.
+- we take data from 'home' and take it to todo than again take it form 'todo' to 'todo2' that is how i practice.
+- we also practice showing the todo prop value by using map.
+- ([...todo]) we use sprade operator use it will show also before all todo and right now todo.
+- 
