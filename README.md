@@ -116,6 +116,8 @@
 - i was using `{}` in map function, and i was wrong i should use `()` 
 - ([...todo]) we use sprade operator use it will show also before all todo and right now todo.
 - i have learn sometimes if i add unnecessary `import` in the page can show error or not run the page.
+- i have face error when i do't use `uuid` form web site but form video cause maybe it wasn't update code.
+
 
 ###### Done Task For Today
 
