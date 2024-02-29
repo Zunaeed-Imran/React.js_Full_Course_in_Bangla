@@ -115,6 +115,7 @@
 - i learn with `ctrl + F5` i can clear cash in the browser.
 - i was using `{}` in map function, and i was wrong i should use `()` 
 - ([...todo]) we use sprade operator use it will show also before all todo and right now todo.
+- i have learn sometimes if i add unnecessary `import` in the page can show error or not run the page.
 
 ###### Done Task For Today
 
