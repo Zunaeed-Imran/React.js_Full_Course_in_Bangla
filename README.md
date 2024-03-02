@@ -117,11 +117,13 @@
 - ([...todo]) we use sprade operator use it will show also before all todo and right now todo.
 - i have learn sometimes if i add unnecessary `import` in the page can show error or not run the page.
 - i have face error when i do't use `uuid` form web site but form video cause maybe it wasn't update code.
+- i import `React` 2nd time again and it was crush the page. (i should take `import react` only one time in a page).
+- 
 
 
 ###### Done Task For Today
 
-- learning state lifting principle.
-- Practicing state lifting principal.
-- revision some previous practice in react.
+- Move the file Previous app file Child to Parent Folder.
+- Making environment for todo app practice.
+- Trying to make a todo app.
 - 
