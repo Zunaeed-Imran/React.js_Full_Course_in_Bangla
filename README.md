@@ -127,4 +127,7 @@
 - Move the file Previous app file Child to Parent Folder.
 - Making environment for todo app practice.
 - Trying to make a todo app.
+- watch some youtube video to clear the concept.
+- making environment for simple todo app.
+- Try simple todo app by myslef.
 - 
