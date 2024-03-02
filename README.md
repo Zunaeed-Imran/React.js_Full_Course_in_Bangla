@@ -118,7 +118,8 @@
 - i have learn sometimes if i add unnecessary `import` in the page can show error or not run the page.
 - i have face error when i do't use `uuid` form web site but form video cause maybe it wasn't update code.
 - i import `React` 2nd time again and it was crush the page. (i should take `import react` only one time in a page).
-- 
+- i learn if i don't make button function yet, a call the function in the button it will show error in the whole page.
+
 
 
 ###### Done Task For Today
