@@ -9,10 +9,10 @@ import Greeting from './UserGreeting';
 import Button from './Button';
 import Prac from './practice1';
 import Destructuring from './destruc';
-import Mapping from './mapping_data';
-import Map from './mapping';
-import Mapp from './mapping';
-import Nasted_map from './nasted_map';
+import Mapping from './mapping/mapping_data';
+import Map from './mapping/mapping';
+import Mapp from './mapping/mapping';
+import Nasted_map from './mapping/nasted_map';
 import Icon from './Icon';
 import React_boostrap from './React_boostrap';
 import State from './Count_App/State';
@@ -66,7 +66,7 @@ function App() {
 
       {/* <Mapp/> */}
 
-      {/* <Nasted_map /> */}
+      <Nasted_map />
 
       {/* <Class_practice /> */}
 
@@ -102,7 +102,7 @@ function App() {
 
       {/* <State_lifting/> */}
 
-      <Home2/>
+      {/* <Home2/> */}
     </>
   );
 }
