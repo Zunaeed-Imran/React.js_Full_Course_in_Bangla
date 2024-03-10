@@ -26,12 +26,14 @@ import Update_State from './Update_state';
 import Update_State2 from './Update_state/index2';
 import Event_bubbling from './Event_bubbling';
 import React_Form from './React_form';
-import React from './React_form/useStateObject';
+// import React from './React_form/useStateObject';
 import Passing_data from './Passing_data/Passing_data';
 import State_lifting from './State_lifting/State_lifting';
 import Home from './Condational_rendering/Home';
 import Home2 from './State_lifting_principle/Home2';
 import Nasted_map2 from './mapping/nasted_map2';
+import Formik from './formik_package./SignUp';
+import SignUp from './formik_package./SignUp';
 
 
 
@@ -67,7 +69,7 @@ function App() {
 
       {/* <Mapp/> */}
 
-      <Nasted_map2/>
+      {/* <Nasted_map2/> */}
 
       {/* <Nasted_map /> */}
 
@@ -106,6 +108,8 @@ function App() {
       {/* <State_lifting/> */}
 
       {/* <Home2/> */}
+
+      <SignUp/>
     </>
   );
 }
