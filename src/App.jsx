@@ -32,7 +32,6 @@ import State_lifting from './State_lifting/State_lifting';
 import Home from './Condational_rendering/Home';
 import Home2 from './State_lifting_principle/Home2';
 import Nasted_map2 from './mapping/nasted_map2';
-import Formik from './formik_package./SignUp';
 import SignUp from './formik_package./SignUp';
 
 
