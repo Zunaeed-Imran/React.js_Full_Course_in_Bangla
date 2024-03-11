@@ -1,3 +1,4 @@
+import './App.css';
 // import Header from './Header';
 // import Footer from './Footer';
 // import Food from './Food';
@@ -34,10 +35,9 @@
 // import Nasted_map2 from './mapping/nasted_map2';
 // import SignUp2 from "./formik_with_yup/Yup";
 // import SignUp from './formik_package./SignUp';
-import Toggle from "./Toggle/Toggle";
+// import Toggle from "./Toggle/Toggle";
 
-
-
+import FAQ from './FAQ_Toggle/FAQ';
 
 function App() {
   return (
@@ -114,7 +114,9 @@ function App() {
 
       {/* <SignUp2/> */}
 
-      <Toggle/>
+      {/* <Toggle/> */}
+
+      <FAQ />
     </>
   );
 }

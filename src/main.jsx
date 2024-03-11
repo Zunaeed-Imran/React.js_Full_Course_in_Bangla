@@ -5,9 +5,12 @@ import './index.css'
 import Prac from './practice1.jsx'
 import Card from './card';
 import Class_practice from './class_component.jsx'
-
 //boostrap link import
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
