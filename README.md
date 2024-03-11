@@ -126,4 +126,6 @@
 
 - Practicing using formik package form.
 - Practicing yup with formik from.
+- Learning do toggle.
+- Practicing toggle Button.
 - 
