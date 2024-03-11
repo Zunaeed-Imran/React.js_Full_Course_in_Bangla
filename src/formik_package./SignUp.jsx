@@ -9,8 +9,9 @@ const SignUp = () => {
       password: '',
     },
 
-    onSubmit: values => {
-      alert(values);
+    onSubmit: (values, {resetForm}) => {
+      console.log(values);
+      resetForm({ values: '' });
     },
   });
 
