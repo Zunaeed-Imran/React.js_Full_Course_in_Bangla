@@ -10,16 +10,16 @@ const Yup = () => {
       password:''
     },
 
-    onSubmit: (values, { remove }) => {
+    onSubmit: (values, { resetForm }) => {
       console.log(values);
-      remove({ values: '' });
+      resetForm({ values: '' });
     }
   })
 
 
   return (
     <div>
-      
+
       <form onSubmit={formik.handleSubmit}>
         <div>
           <input
@@ -27,7 +27,7 @@ const Yup = () => {
             name="name"
             placeholder="Name"
             onChange={formik.handleChange}
-            value={formik.values}
+            value={formik.values.name}
             required
           />
         </div>
@@ -37,7 +37,7 @@ const Yup = () => {
             name="email"
             placeholder="Email"
             onChange={formik.handleChange}
-            value={formik.values}
+            value={formik.values.email}
             required
           />
         </div>
@@ -47,7 +47,7 @@ const Yup = () => {
             name="password"
             placeholder="Password"
             onChange={formik.handleChange}
-            value={formik.values}
+            value={formik.values.password}
             required
           />
         </div>
