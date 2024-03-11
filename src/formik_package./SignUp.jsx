@@ -2,6 +2,8 @@ import React from 'react';
 import { useFormik } from 'formik';
 
 const SignUp = () => {
+
+  // this is formik package
   const formik = useFormik({
     initialValues: {
       name: '',
@@ -9,6 +11,7 @@ const SignUp = () => {
       password: '',
     },
 
+    // also `resetForm` is formik package
     onSubmit: (values, {resetForm}) => {
       console.log(values);
       resetForm({ values: '' });

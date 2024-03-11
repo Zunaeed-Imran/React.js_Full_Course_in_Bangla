@@ -1,25 +1,32 @@
-import React from 'react'
+import React from 'react';
 import { useFormik } from 'formik';
+import {string} from 'yup';
 
-const Yup = () => {
+const SignUp2 = () => {
+  // yup package
+  let userSchema = Yup.object({
+    name: yup.string().required(),
+    email: yup.string().email(),
+    password: yup.string().password()
+  });
 
+  // this is formik package.
   const formik = useFormik({
     initialValues: {
       name: '',
       email: '',
-      password:''
+      password: '',
     },
-
+    validationSchema: userSchema, // Apply validation schema
+    // this is formik package.
     onSubmit: (values, { resetForm }) => {
       console.log(values);
-      resetForm({ values: '' });
-    }
-  })
-
+      resetForm({ values: { name: '', email: '', password: '' } });
+    },
+  });
 
   return (
     <div>
-
       <form onSubmit={formik.handleSubmit}>
         <div>
           <input
@@ -57,6 +64,6 @@ const Yup = () => {
       </form>
     </div>
   );
-}
+};
 
-export default Yup;
+export default SignUp2;

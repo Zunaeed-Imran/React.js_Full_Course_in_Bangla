@@ -124,5 +124,6 @@
 
 ###### Done Task For Today
 
-- Learning control form data using formik package.
+- Practicing using formik package form.
+- Practicing yup with formik from.
 - 
