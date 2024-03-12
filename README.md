@@ -67,19 +67,28 @@
   'App.jsx').
 - `Icon.jsx` in this file we practice icon in react (before we use icon we have
   to install 'icon' package).
-- `React_boostrap.jsx` in this file we practice boostrap in React also add inline css style.
-- 'Count_App' we make it in file `State.jsx` in this file we practice state , setState and event handler (using class not function,)
-    (We make count app in this practice file).
-- 'condational_rendering' in that file we practice Condational rendering, ternary, short circuit (). 
-- 'Event_Handeler' from this file we practice OnChange Event Handler(it show the input text in realtime).  
-- 'Hook_useState' in this folder we larn Different between `Functional and class component`
-- 'Update_state' in this folder we learn previous example `Functional component` 
+- `React_boostrap.jsx` in this file we practice boostrap in React also add
+  inline css style.
+- 'Count_App' we make it in file `State.jsx` in this file we practice state ,
+  setState and event handler (using class not function,) (We make count app in
+  this practice file).
+- 'condational_rendering' in that file we practice Condational rendering,
+  ternary, short circuit ().
+- 'Event_Handeler' from this file we practice OnChange Event Handler(it show the
+  input text in realtime).
+- 'Hook_useState' in this folder we larn Different between
+  `Functional and class component`
+- 'Update_state' in this folder we learn previous example `Functional component`
   'useState' use different way or update way.
-- 'Event_bubbling'  in this folder we will learn how to stop calling parent component if we call chaild.(if we stopPropagation child will not call parent)  
-- 'React_form' in this folder we will learn useing Form in React and we control `state` and show in 'input value' (also practice module CSS in form).
-- 'Passing_data' from this folder we will learn passing data from child to parent.
+- 'Event_bubbling' in this folder we will learn how to stop calling parent
+  component if we call chaild.(if we stopPropagation child will not call parent)
+- 'React_form' in this folder we will learn useing Form in React and we control
+  `state` and show in 'input value' (also practice module CSS in form).
+- 'Passing_data' from this folder we will learn passing data from child to
+  parent.
 - 'State_lifting' from this file we learn state lifting like passing data.
-- 'State_lifting_principal' from this file we learn data passing child to parent but complex, and todo practice.
+- 'State_lifting_principal' from this file we learn data passing child to parent
+  but complex, and todo practice.
 
 ## What was my fault and what i learn in this project.
 
@@ -108,25 +117,29 @@
 - i learn how to all inside file from another file when i was practicing json
   data file mapping.
 - i learn class component, it's similar like functional component.
-- i was using constructor function out side of class component and that was my fault.
+- i was using constructor function out side of class component and that was my
+  fault.
 - i was using two return and it show error i should have used one return.
 - we also can use ternary operator in the return directely.
-- i learn in form if i use `required` without data passing form can't be submitted.
+- i learn in form if i use `required` without data passing form can't be
+  submitted.
 - i learn with `ctrl + F5` i can clear cash in the browser.
-- i was using `{}` in map function, and i was wrong i should use `()` 
-- ([...todo]) we use sprade operator use it will show also before all todo and right now todo.
-- i have learn sometimes if i add unnecessary `import` in the page can show error or not run the page.
-- i have face error when i do't use `uuid` form web site but form video cause maybe it wasn't update code.
-- i import `React` 2nd time again and it was crush the page. (i should take `import react` only one time in a page).
-- i learn if i don't make button function yet, a call the function in the button it will show error in the whole page.
-
-
+- i was using `{}` in map function, and i was wrong i should use `()`
+- ([...todo]) we use sprade operator use it will show also before all todo and
+  right now todo.
+- i have learn sometimes if i add unnecessary `import` in the page can show
+  error or not run the page.
+- i have face error when i do't use `uuid` form web site but form video cause
+  maybe it wasn't update code.
+- i import `React` 2nd time again and it was crush the page. (i should take
+  `import react` only one time in a page).
+- i learn if i don't make button function yet, a call the function in the button
+  it will show error in the whole page.
 
 ###### Done Task For Today
 
-- Practicing using formik package form.
-- Practicing yup with formik from.
-- Learning do toggle.
-- Practicing toggle Button.
-- Practicing FAQ toggle question answer.
+- Practice FAQ Toggle Button example.
+- Learn React useEffect Hook.
+- Practice React uuseEffect() Hook.
+- Learning fetching data with useEffect hook.
 - 

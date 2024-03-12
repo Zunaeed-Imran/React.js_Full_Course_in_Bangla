@@ -1,0 +1,2 @@
+- in fatching data first we have null value, after 1 second we got the data that is why we have to set condation. like(todo &&) in the example file.
+- 

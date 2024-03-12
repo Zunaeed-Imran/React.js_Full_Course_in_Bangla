@@ -1,5 +1,6 @@
 import './App.css';
-import UseEffectExample from './Use_Effect/UseEffectExample';
+import UseEffect_FetchData from './UseEffect_FetchData/UseEffect_FetchData';
+// import UseEffectExample from './Use_Effect/UseEffectExample';
 // import Header from './Header';
 // import Footer from './Footer';
 // import Food from './Food';
@@ -119,7 +120,9 @@ function App() {
 
       {/* <FAQ /> */}
 
-      <UseEffectExample/>
+      {/* <UseEffectExample/> */}
+
+      <UseEffect_FetchData/>
     </>
   );
 }
