@@ -1,4 +1,5 @@
 import './App.css';
+import UseEffectExample from './Use_Effect/UseEffectExample';
 // import Header from './Header';
 // import Footer from './Footer';
 // import Food from './Food';
@@ -36,8 +37,8 @@ import './App.css';
 // import SignUp2 from "./formik_with_yup/Yup";
 // import SignUp from './formik_package./SignUp';
 // import Toggle from "./Toggle/Toggle";
+// import FAQ from './FAQ_Toggle/FAQ';
 
-import FAQ from './FAQ_Toggle/FAQ';
 
 function App() {
   return (
@@ -116,7 +117,9 @@ function App() {
 
       {/* <Toggle/> */}
 
-      <FAQ />
+      {/* <FAQ /> */}
+
+      <UseEffectExample/>
     </>
   );
 }

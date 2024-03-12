@@ -1,0 +1,9 @@
+[useeffect-anisul_islam](https://youtu.be/XEU3jlV9syI?si=6puQTLOyC-XOazCz)
+- by using useEffect() we can work on data-fetch,DOM,
+- use effect start (at 8 minute's ).
+- calls with first render and depended on count[if dependcis]
+- if i use empty array in,  unseEffact([]), it call only first time in the click.
+- but if i don't use empty array it calls every time.
+- but if i use dependencies in the useEffect([])-arrry it call every time when we call the dependinces.
+- in the example we take tow button to differentiation.
+- 
