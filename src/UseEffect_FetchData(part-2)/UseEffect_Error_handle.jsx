@@ -35,8 +35,8 @@ const UseEffect_Error_handle = () => {
           setIsloading(false);
           setError(null);
         })
-        .catch ((e) => {
-          setError(e.massege);
+        .catch ((error) => {
+          setError(error.message);
           setIsloading(false);
         });
     }, 2000)
@@ -53,7 +53,7 @@ const UseEffect_Error_handle = () => {
   return (
     <div>
       <h1>Todo and Error Handeling.</h1>
-      {error && <p>{Error}</p>}
+      {error && <p>{error}</p>}
       {isloading && loadingMassege}
       {todoElement}
     </div>
