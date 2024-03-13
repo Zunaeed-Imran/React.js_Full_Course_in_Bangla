@@ -138,4 +138,9 @@
 
 ###### Done Task For Today
 - Learning fetching data with useEffect hook.
+- Practice fetching data with useEffect hook.
+- Learning setTime out && loading when fetch data form API.
+- Practicing setTime out && loading when fetch data form API.
+- Learning how to handle the error and add loading status from API Using UseEffect()
+- Practicing handle error and loading data.
 - 

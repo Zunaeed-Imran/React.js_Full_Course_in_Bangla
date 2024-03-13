@@ -1,5 +1,6 @@
 import './App.css';
-import UseEffect_FetchData from './UseEffect_FetchData/UseEffect_FetchData';
+import UseEffect_Error_handle from './UseEffect_FetchData(part-2)/UseEffect_Error_handle';
+// import UseEffect_FetchData from './UseEffect_FetchData/UseEffect_FetchData';
 // import UseEffectExample from './Use_Effect/UseEffectExample';
 // import Header from './Header';
 // import Footer from './Footer';
@@ -122,7 +123,9 @@ function App() {
 
       {/* <UseEffectExample/> */}
 
-      <UseEffect_FetchData/>
+      {/* <UseEffect_FetchData/> */}
+
+      <UseEffect_Error_handle/>
     </>
   );
 }
