@@ -137,9 +137,5 @@
   it will show error in the whole page.
 
 ###### Done Task For Today
-
-- Practice FAQ Toggle Button example.
-- Learn React useEffect Hook.
-- Practice React uuseEffect() Hook.
 - Learning fetching data with useEffect hook.
 - 
