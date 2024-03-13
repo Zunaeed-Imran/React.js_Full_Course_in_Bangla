@@ -22,7 +22,7 @@ const UseEffect_Error_handle = () => {
 
   useEffect(() => {
     setTimeout(() => {
-      fetch('https://jsonplaceholder.typicode.com/todo')
+      fetch('https://jsonplaceholder.typicode.com/todos')
         .then(resource => {
           if (!resource.ok) {
             throw Error("Fetching is not Sucessful")

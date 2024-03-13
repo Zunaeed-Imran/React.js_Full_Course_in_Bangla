@@ -1,2 +1,2 @@
 - first we the a variable for "todo && todo.map()..." to look it simplified.
-- 
+- i was get problem with spelling in `message` when i use `.catch` in the useEffect error handeling.
