@@ -135,6 +135,7 @@
   `import react` only one time in a page).
 - i learn if i don't make button function yet, a call the function in the button
   it will show error in the whole page.
+- i was using {{} && {}} and it won't work it should be like {{} && <p>{}</p>}  
 
 ###### Done Task For Today
 - Learning fetching data with useEffect hook.
