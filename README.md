@@ -138,10 +138,7 @@
 - i was using {{} && {}} and it won't work it should be like {{} && <p>{}</p>}  
 
 ###### Done Task For Today
-- Learning fetching data with useEffect hook.
-- Practice fetching data with useEffect hook.
-- Learning setTime out && loading when fetch data form API.
-- Practicing setTime out && loading when fetch data form API.
-- Learning how to handle the error and add loading status from API Using UseEffect()
-- Practicing handle error and loading data.
+- Practicing handle error and loading data UseEffect.
+- Learning create custom hook.
+- Practicing Custom_Hook in react.
 - 
