@@ -12,23 +12,25 @@ const custom_hook1 = (url) => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-      fetch('url')
-        .then((response) => {
-          if (!response.ok) {
-            throw Error('Fetching is not Sucessful');
-          } else {
-            return response.json();
-          }
-        })
-        .then((data) => {
-          setData(data);
-          setIsloading(false);
-          setError(null);
-        })
-        .catch((error) => {
-          setError(error.message);
-          setIsloading(false);
-        });
+    setTimeout(() => {
+        fetch(url)
+          .then(response => {
+            if (!response.ok) {
+              throw Error('Fetching is not Sucessful');
+            } else {
+              return response.json();
+            }
+          })
+          .then(data => {
+            setData(data);
+            setIsloading(false);
+            setError(null);
+          })
+          .catch(error => {
+            setError(error.message);
+            setIsloading(false);
+          });
+     }, 1000)
   }, [url]);
 
   return {data, isloading, error};

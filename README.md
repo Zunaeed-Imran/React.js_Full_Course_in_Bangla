@@ -138,7 +138,5 @@
 - i was using {{} && {}} and it won't work it should be like {{} && <p>{}</p>}  
 
 ###### Done Task For Today
-- Practicing handle error and loading data UseEffect.
-- Learning create custom hook.
 - Practicing Custom_Hook in react.
 - 
