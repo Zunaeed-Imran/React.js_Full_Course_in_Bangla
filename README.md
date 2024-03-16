@@ -139,4 +139,6 @@
 
 ###### Done Task For Today
 - Practicing Custom_Hook in react.
+- Learning toastify in react.
+- Practicing toastify in react.
 - 

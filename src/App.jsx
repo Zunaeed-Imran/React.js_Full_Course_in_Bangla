@@ -1,5 +1,6 @@
 import './App.css';
-import Custom_Hook from './Custom_Hook/Custom_Hook';
+import React_toastify from './Toastify/React_toastify';
+// import Custom_Hook from './Custom_Hook/Custom_Hook';
 // import UseEffect_Error_handle from './UseEffect_FetchData(part-2)/UseEffect_Error_handle';
 // import UseEffect_FetchData from './UseEffect_FetchData/UseEffect_FetchData';
 // import UseEffectExample from './Use_Effect/UseEffectExample';
@@ -128,7 +129,9 @@ function App() {
 
       {/* <UseEffect_Error_handle/> */}
 
-      <Custom_Hook/>
+      {/* <Custom_Hook/> */}
+
+      <React_toastify/>
     </>
   );
 }
