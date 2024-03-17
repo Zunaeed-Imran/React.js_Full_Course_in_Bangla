@@ -138,11 +138,7 @@
 - i was using {{} && {}} and it won't work it should be like {{} && <p>{}</p>}  
 
 ###### Done Task For Today
-- Practicing Custom_Hook in react.
-- Learning toastify in react.
-- Practicing toastify in react.
-- Learning country app part by part.
-- Making Environment setup for country app.
-- Practicing fetch data for country App.
-- Learning Fetch data using asyn method.
+- was trying to fix the git reppo problem.
+- revision some of previous task.
+- Learning and knowing about the postman.
 - 
