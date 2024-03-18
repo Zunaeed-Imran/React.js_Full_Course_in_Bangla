@@ -1,5 +1,7 @@
+import { Fragment } from 'react';
 import './App.css';
-import React_toastify from './Toastify/React_toastify';
+import Fragment_practice from './Fragment/Fragment_practice';
+// import React_toastify from './Toastify/React_toastify';
 // import Custom_Hook from './Custom_Hook/Custom_Hook';
 // import UseEffect_Error_handle from './UseEffect_FetchData(part-2)/UseEffect_Error_handle';
 // import UseEffect_FetchData from './UseEffect_FetchData/UseEffect_FetchData';
@@ -131,7 +133,9 @@ function App() {
 
       {/* <Custom_Hook/> */}
 
-      <React_toastify/>
+      {/* <React_toastify/> */}
+
+      <Fragment_practice/>
     </>
   );
 }

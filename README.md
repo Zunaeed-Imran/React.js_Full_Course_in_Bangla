@@ -136,6 +136,8 @@
 - i learn if i don't make button function yet, a call the function in the button
   it will show error in the whole page.
 - i was using {{} && {}} and it won't work it should be like {{} && <p>{}</p>}  
+- If we want to pass key to a Fragment, we can’t use the <>...</> syntax.
+  we have to explicitly import Fragment from 'react' and render <Fragment key={yourKey}>...</Fragment>.
 
 ###### Done Task For Today
 - was trying to fix the git reppo problem.
