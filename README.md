@@ -140,7 +140,7 @@
   we have to explicitly import Fragment from 'react' and render <Fragment key={yourKey}>...</Fragment>.
 
 ###### Done Task For Today
-- was trying to fix the git reppo problem.
-- revision some of previous task.
-- Learning and knowing about the postman.
+- Practicing Searching Data from API in country App.
+- Learning dynamic styling in React.
+- Practicing dynamic styling in React.
 - 

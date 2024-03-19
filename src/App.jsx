@@ -1,7 +1,8 @@
 import { Fragment } from 'react';
 import './App.css';
-import Fragment_practice from './Fragment/Fragment_practice';
-import Dynamic_Style from './Dynamic_Style/Dynamic_Style';
+import Input_Dynamic_style from './Dynamic_Style/Input_Dynamic_style';
+// import Fragment_practice from './Fragment/Fragment_practice';
+// import Dynamic_Style from './Dynamic_Style/Dynamic_Style';
 // import React_toastify from './Toastify/React_toastify';
 // import Custom_Hook from './Custom_Hook/Custom_Hook';
 // import UseEffect_Error_handle from './UseEffect_FetchData(part-2)/UseEffect_Error_handle';
@@ -138,7 +139,9 @@ function App() {
 
       {/* <Fragment_practice/> */}
 
-      <Dynamic_Style/>
+      {/* <Dynamic_Style/> */}
+
+      <Input_Dynamic_style/>
     </>
   );
 }
