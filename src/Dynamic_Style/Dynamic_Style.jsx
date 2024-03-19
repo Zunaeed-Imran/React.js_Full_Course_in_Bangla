@@ -6,7 +6,10 @@ const Dynamic_Style = () => {
 
   return (
     <>
-      <h2 style={{color: Dynamic_color ? "green" : "red"}}>
+      <h2 style={{
+        color: Dynamic_color ? "green" : "red",
+        backgroundColor: Dynamic_color ? "black" : "yellow"
+      }}>
       Hello from Dynamic Style Practice.
       </h2>
     </>
