@@ -1,6 +1,7 @@
 import { Fragment } from 'react';
 import './App.css';
-import Input_Dynamic_style from './Dynamic_Style/Input_Dynamic_style';
+import Prob_Type from './Prob_Types/Prob_Type';
+// import Input_Dynamic_style from './Dynamic_Style/Input_Dynamic_style';
 // import Fragment_practice from './Fragment/Fragment_practice';
 // import Dynamic_Style from './Dynamic_Style/Dynamic_Style';
 // import React_toastify from './Toastify/React_toastify';
@@ -141,7 +142,9 @@ function App() {
 
       {/* <Dynamic_Style/> */}
 
-      <Input_Dynamic_style/>
+      {/* <Input_Dynamic_style/> */}
+
+      <Prob_Type/>
     </>
   );
 }

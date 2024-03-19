@@ -143,4 +143,5 @@
 - Practicing Searching Data from API in country App.
 - Learning dynamic styling in React.
 - Practicing dynamic styling in React.
+- Learning PropTypes | built-in type checking.
 - 
