@@ -1,6 +1,7 @@
 import { Fragment } from 'react';
 import './App.css';
-import Prob_Type from './Prob_Types/Prob_Type';
+import User_Form from './Ref_example/User_Form';
+// import Prob_Type from './Prob_Types/Prob_Type';
 // import Input_Dynamic_style from './Dynamic_Style/Input_Dynamic_style';
 // import Fragment_practice from './Fragment/Fragment_practice';
 // import Dynamic_Style from './Dynamic_Style/Dynamic_Style';
@@ -144,7 +145,9 @@ function App() {
 
       {/* <Input_Dynamic_style/> */}
 
-      <Prob_Type/>
+      {/* <Prob_Type/> */}
+
+      <User_Form/>
     </>
   );
 }

@@ -1,0 +1,5 @@
+- createRef() function can access directly DOM.
+- we can access directly.
+- (https://youtu.be/EyUsClvwmeo?si=pN6Ar6huxOmjHF4x) [Learning video.]
+- we can see the data without controlling.
+- we can even change the page style or text style directly.

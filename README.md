@@ -144,4 +144,7 @@
 - Learning dynamic styling in React.
 - Practicing dynamic styling in React.
 - Learning PropTypes | built-in type checking.
+- Basic learning life cycle of a class component.
+- Learning basic ref in a class component.
+- Practicing ref in a class component.
 - 
