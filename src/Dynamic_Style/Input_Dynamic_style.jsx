@@ -2,19 +2,19 @@ import React, { useEffect, useState } from 'react';
 
 const Input_Dynamic_style = () => {
   const [name, setName] = useState();
-  const [valid, setValid] = useState(false);
+  const [valid, setValid] = useState(null);
+
+  useEffect(() => {
+    if (name && name.length < 4) {
+      setValid(false);
+    } else {
+      setValid(true);
+    }
+  }, [name]);
 
   const handleChange = event => {
     setName(event.target.value);
   };
-
-  useEffect(() => {
-    if (name.length < 2) {
-      setValid(false);
-    } else {
-      true;
-    }
-  }, [name]);
 
   return (
     <div>
