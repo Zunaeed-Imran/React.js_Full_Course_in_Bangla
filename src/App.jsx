@@ -1,6 +1,7 @@
 import { Fragment } from 'react';
 import './App.css';
-import UseRef_Style from './Hooks/UseRef_Example/UseRef_Style';
+import Use_reducer from './Hooks/Use_Reducer/Use_reducer';
+// import UseRef_Style from './Hooks/UseRef_Example/UseRef_Style';
 // import User_Form from './Ref_example/User_Form';
 // import Useref_Example from './Hooks/UseRef_Example/Useref_Example';
 // import Prob_Type from './Prob_Types/Prob_Type';
@@ -153,7 +154,9 @@ function App() {
 
       {/* <Useref_Example/> */}
 
-      <UseRef_Style/>
+      {/* <UseRef_Style/> */}
+
+      <Use_reducer/>
     </>
   );
 }
