@@ -1,3 +1,3 @@
 - by the help of useReducer we can add some text like in todo list if we  remove a todo it show a massege todo is deleted.
 - in this file i also have a practice with useState() after add or delete it show a massege using Modal text.
-- 
+- in the 2nd Practice file we use useReducer.

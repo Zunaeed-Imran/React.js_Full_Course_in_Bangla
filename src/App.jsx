@@ -1,6 +1,7 @@
 import { Fragment } from 'react';
 import './App.css';
-import Use_reducer from './Hooks/Use_Reducer/Use_reducer';
+import Use_Reducer2 from './Hooks/Use_Reducer/Use_Reducer2';
+// import Use_reducer from './Hooks/Use_Reducer/Use_reducer';
 // import UseRef_Style from './Hooks/UseRef_Example/UseRef_Style';
 // import User_Form from './Ref_example/User_Form';
 // import Useref_Example from './Hooks/UseRef_Example/Useref_Example';
@@ -156,7 +157,9 @@ function App() {
 
       {/* <UseRef_Style/> */}
 
-      <Use_reducer/>
+      {/* <Use_reducer/> */}
+
+      <Use_Reducer2/>
     </>
   );
 }
