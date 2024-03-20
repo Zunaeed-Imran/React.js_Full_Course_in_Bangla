@@ -1,0 +1,4 @@
+- we can directly access the DOM by using "useRef()"
+- it also called uncontrolled component.
+- it Directly access the, that's why overAll process will slow.
+- we also can change the color of css.

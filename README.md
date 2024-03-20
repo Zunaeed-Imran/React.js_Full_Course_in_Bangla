@@ -140,11 +140,6 @@
   we have to explicitly import Fragment from 'react' and render <Fragment key={yourKey}>...</Fragment>.
 
 ###### Done Task For Today
-- Practicing Searching Data from API in country App.
-- Learning dynamic styling in React.
-- Practicing dynamic styling in React.
-- Learning PropTypes | built-in type checking.
-- Basic learning life cycle of a class component.
-- Learning basic ref in a class component.
-- Practicing ref in a class component.
+- Learning React Hooks | useRef Hook in functional component.
+- Practicing useRef Hook in functional component.
 - 
