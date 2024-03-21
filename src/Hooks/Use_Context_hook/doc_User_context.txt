@@ -1,0 +1,6 @@
+- step 1 : create context
+- step 2 : wrap child with context provider.
+- step 3 : state access Usecontext hook.
+- in this way every child can access data form parent 1 in this way.
+- we can take the data diractly no neede props.
+- 

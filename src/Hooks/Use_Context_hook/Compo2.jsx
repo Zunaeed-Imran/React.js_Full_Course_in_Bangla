@@ -1,10 +1,10 @@
 import React from 'react'
 import Compo3 from './Compo3';
 
-const Compo2 = (props) => {
+const Compo2 = () => {
   return (
     <>
-      <Compo3 user={props.user} />
+      <Compo3 />
     </>
   )
 }
