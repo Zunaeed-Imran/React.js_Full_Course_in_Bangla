@@ -140,6 +140,5 @@
   we have to explicitly import Fragment from 'react' and render <Fragment key={yourKey}>...</Fragment>.
 
 ###### Done Task For Today
-- Practicing useContext Hook.
-- Practicing UseReducer Hook.
+- Practicing useReducer Hook.
 - 

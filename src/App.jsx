@@ -1,8 +1,8 @@
 import { Fragment } from 'react';
 import './App.css';
-import Compo1 from './Hooks/Use_Context_hook/Compo1';
+// import Compo1 from './Hooks/Use_Context_hook/Compo1';
 // import Component1 from './Prop_Drilling/Component1';
-// import Use_Reducer2 from './Hooks/Use_Reducer/Use_Reducer2';
+import Use_Reducer2 from './Hooks/Use_Reducer/Use_Reducer2';
 // import Use_reducer from './Hooks/Use_Reducer/Use_reducer';
 // import UseRef_Style from './Hooks/UseRef_Example/UseRef_Style';
 // import User_Form from './Ref_example/User_Form';
@@ -161,11 +161,11 @@ function App() {
 
       {/* <Use_reducer/> */}
 
-      {/* <Use_Reducer2/> */}
+      <Use_Reducer2/>
 
       {/* <Component1/> */}
 
-      <Compo1/>
+      {/* <Compo1/> */}
     </>
   );
 }
