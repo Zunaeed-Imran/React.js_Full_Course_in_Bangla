@@ -141,4 +141,7 @@
 
 ###### Done Task For Today
 - Practicing useReducer Hook.
-- 
+- Making the environment for APP Practice.
+- Practicing UserManagement App without using context API.
+- practicing User Management App using Context API.
+- practicing usermanagement app using custom context.
