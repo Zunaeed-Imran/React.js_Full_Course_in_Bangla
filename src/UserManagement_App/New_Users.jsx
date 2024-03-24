@@ -16,7 +16,7 @@ const New_Users = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
     const newUser = { id: uuidv4().toString(), userName: userName };
-    setUserName(prevUser => [...prevUser, newUser]);
+    setUsers(prevUser => [...prevUser, newUser]);
     setUserName('');
 }
 
