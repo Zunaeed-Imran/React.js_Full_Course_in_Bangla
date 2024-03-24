@@ -140,8 +140,4 @@
   we have to explicitly import Fragment from 'react' and render <Fragment key={yourKey}>...</Fragment>.
 
 ###### Done Task For Today
-- Practicing useReducer Hook.
-- Making the environment for APP Practice.
-- Practicing UserManagement App without using context API.
-- practicing User Management App using Context API.
 - practicing usermanagement app using custom context.
