@@ -1,6 +1,6 @@
 import { Fragment } from 'react';
 import './App.css';
-import Custom_Context_App from './UserManagement_App/Custom_Context_App';
+// import Custom_Context_App from './UserManagement_App/Custom_Context_App';
 // import Compo1 from './Hooks/Use_Context_hook/Compo1';
 // import Component1 from './Prop_Drilling/Component1';
 // import Use_Reducer2 from './Hooks/Use_Reducer/Use_Reducer2';
@@ -168,7 +168,7 @@ function App() {
 
       {/* <Compo1/> */}
 
-      <Custom_Context_App/>
+      {/* <Custom_Context_App/> */}
     </>
   );
 }

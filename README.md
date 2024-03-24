@@ -141,3 +141,6 @@
 
 ###### Done Task For Today
 - practicing usermanagement app using custom context.
+- Learn basic introduction to react routing.
+- Practice basic react routing.
+- get knowladge about best practice for a react project structure.
