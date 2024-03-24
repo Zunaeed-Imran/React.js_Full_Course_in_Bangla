@@ -1,25 +1,24 @@
-import React, { useContext, useState } from 'react'
-import { Userscontext } from './UsersContext';
-import { v4 as uuidv4 } from 'uuid';
+import React, { useState } from 'react';
 
+import { v4 as uuidv4 } from 'uuid';
+import { useUsersContext } from './hooks/useUsersContext';
 
 const New_Users = () => {
-
-  const { setUsers } = useContext(Userscontext);
+  // custom hook userContext.
+  const { setUsers } = useUsersContext();
 
   const [userName, setUserName] = useState('');
 
-  const handleChange = (event) => {
+  const handleChange = event => {
     setUserName(event.target.value);
-  }
+  };
 
-  const handleSubmit = (event) => {
+  const handleSubmit = event => {
     event.preventDefault();
     const newUser = { id: uuidv4().toString(), userName: userName };
     setUsers(prevUser => [...prevUser, newUser]);
     setUserName('');
-}
-
+  };
 
   return (
     <>
@@ -27,14 +26,15 @@ const New_Users = () => {
         <input
           type="text"
           name="name"
-          placeholder='Name'
+          placeholder="Name"
           value={userName}
-          onChange={handleChange} />
-        
+          onChange={handleChange}
+        />
+
         <button>Add</button>
-        </form>
+      </form>
     </>
-  )
-}
+  );
+};
 
 export default New_Users;

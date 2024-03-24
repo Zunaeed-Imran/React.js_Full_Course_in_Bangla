@@ -1,13 +1,14 @@
-import React, { useContext } from 'react'
-import { Userscontext } from './UsersContext';
+import React from 'react'
 import User from './User';
+import { useUsersContext } from './hooks/useUsersContext';
 
 
 
 
 const Users = () => {
 
-  const { users } = useContext(Userscontext);
+// Custom Hook  
+  const {users} = useUsersContext();
 
 
   return (
