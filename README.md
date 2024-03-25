@@ -140,7 +140,6 @@
   we have to explicitly import Fragment from 'react' and render <Fragment key={yourKey}>...</Fragment>.
 
 ###### Done Task For Today
-- practicing usermanagement app using custom context.
-- Learn basic introduction to react routing.
-- Practice basic react routing.
-- get knowladge about best practice for a react project structure.
+- Learning react routing | Navigation and redirect.
+- Practicing react routing | Navigation and redirect.
+- 
