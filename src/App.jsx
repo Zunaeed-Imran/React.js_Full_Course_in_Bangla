@@ -1,6 +1,7 @@
 import { Fragment } from 'react';
 import './App.css';
-import Raect_route2 from './React_routing_Navigation/Raect_route2';
+import Dynamic_Routing from './React_routing3_Dynamic/Dynamic_Routing';
+// import Raect_route2 from './React_routing_Navigation/Raect_route2';
 // import React_Router from './React_routing/React_Router';
 // import Custom_Context_App from './UserManagement_App/Custom_Context_App';
 // import Compo1 from './Hooks/Use_Context_hook/Compo1';
@@ -173,7 +174,9 @@ function App() {
 
       {/* <React_Router /> */}
 
-      <Raect_route2/>
+      {/* <Raect_route2/> */}
+
+      <Dynamic_Routing/>
     </>
   );
 }

@@ -144,4 +144,5 @@
 - Practicing routing navigation.
 - Learning react routing | redirect.
 - Practicing react routing | redirect.
-- Learning 
+- Learning react routing | dynamic routing using useParams.
+- 
