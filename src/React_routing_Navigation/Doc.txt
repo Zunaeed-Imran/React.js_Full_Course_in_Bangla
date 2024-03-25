@@ -1,0 +1,7 @@
+### Practice in this file.
+[youtube link](https://youtu.be/DooqgS1JDg0?si=J5JnkLLiEAgl9jm3)
+
+
+- i learn basic navigator form this tutorial.
+- i learn basic redirect navitor button add. 
+- i learn use navigator hook.

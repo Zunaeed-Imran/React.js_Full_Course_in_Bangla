@@ -140,6 +140,8 @@
   we have to explicitly import Fragment from 'react' and render <Fragment key={yourKey}>...</Fragment>.
 
 ###### Done Task For Today
-- Learning react routing | Navigation and redirect.
-- Practicing react routing | Navigation and redirect.
-- 
+- Learning react routing | Navigation.
+- Practicing routing navigation.
+- Learning react routing | redirect.
+- Practicing react routing | redirect.
+- Learning 

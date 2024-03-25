@@ -1,6 +1,10 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom';
 
 const Contact2 = () => {
+
+  const navigate = useNavigate();
+
   return (
     <>
       <h1>Contact Page</h1>
@@ -9,6 +13,10 @@ const Contact2 = () => {
 
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor tenetur a corporis eligendi fugit inventore reprehenderit recusandae magnam rem molestias excepturi ipsa sapiente, dolorum voluptatibus officia fugiat? Vitae, ipsam earum?</p>
 
+
+      <button onClick={() => {
+        navigate("/home");
+      }}>Go To Home Page</button>
     </>
   )
 }
