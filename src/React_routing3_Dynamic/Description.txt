@@ -1,0 +1,12 @@
+### React Dynamic routing
+- we will learn dynamic routin form this folder.
+- 
+
+
+
+
+
+
+
+
+- [Dynamic routing Tutorial](https://youtu.be/g5B0Vq3jHbA?si=nOOtKMVmvZOkPccx)

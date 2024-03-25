@@ -1,13 +1,27 @@
-import React from 'react'
+import React, { useState } from 'react'
+import { blogsData } from '../Data3';
+import { Link } from 'react-router-dom';
 
 const Blog3 = () => {
+
+  const [blogs, setBlogs] = useState(blogsData);
+
   return (
     <>
       <h1>Blog Page</h1>
 
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate a fugiat quidem aliquam enim pariatur, ipsum vero ipsa voluptatum suscipit, alias iure nam saepe animi veniam earum. Aliquid amet quod nesciunt harum possimus excepturi fuga! Corporis obcaecati necessitatibus consectetur fugiat dolores quasi libero tempore, aliquid quod ea maxime voluptatum consequuntur.</p>
-
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit illum magnam voluptas, culpa tempora quibusdam architecto perspiciatis harum quas minus, veniam in dignissimos iure molestiae perferendis voluptatibus accusamus, quidem ab!</p>
+      <section>
+        {blogs.map((blog) => {
+          const { id, title, body } = blog;
+          return <article key={id}>
+            <h2>{title}</h2>
+            <p>{body}</p>
+            <Link to={title} >Learn More</Link>
+          </article>
+        })}
+      </section>
+     
+      
     </>
   )
 }
