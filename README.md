@@ -145,4 +145,7 @@
 - Learning react routing | redirect.
 - Practicing react routing | redirect.
 - Learning react routing | dynamic routing using useParams.
+- Practicing react routing | dynamic routing using useParams.
+- Learning useLocation hook.
+- Practicing useLocation hook.
 - 
