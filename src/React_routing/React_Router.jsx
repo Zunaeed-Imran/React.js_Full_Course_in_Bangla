@@ -8,15 +8,15 @@ import Error_Page from './pages/Error_Page';
 
 
 const React_Router = () => {
-  
+
   return (
     <BrowserRouter>
-      <Routes />
-      <Route path="/home" element={<Home />} />
-      <Route path="/contact" element={<Contact />} />
-      <Route path="/blogs" element={<Blogs />} />
-      <Route path='*' element={<Error_Page/>} />
-      <Routes />
+      <Routes>
+        <Route path="/home" element={<Home />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/blogs" element={<Blogs />} />
+        <Route path='*' element={<Error_Page/>} />
+      </Routes>
     </BrowserRouter>
   );
 };
