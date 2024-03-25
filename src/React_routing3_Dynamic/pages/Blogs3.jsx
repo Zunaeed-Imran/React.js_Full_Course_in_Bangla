@@ -22,12 +22,14 @@ const Blogs3 = () => {
       <section>
         {blogs.map((blog) => {
           const { id, title, body } = blog;
-          return <article key={id}>
-            <h3>{title}</h3>
-            <p>{truncateString(body, 100)}</p>
-            
-            <Link to={title} >Learn More</Link>
-          </article>
+          return (
+            <article key={id}>
+              <h3>{title}</h3>
+              <p>{truncateString(body, 100)}</p>
+
+              <Link to={title}>Learn More</Link>
+            </article>
+          );
         })}
       </section>
      

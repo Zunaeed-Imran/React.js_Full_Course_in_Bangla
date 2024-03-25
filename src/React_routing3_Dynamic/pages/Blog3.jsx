@@ -16,8 +16,8 @@ const Blog3 = () => {
   return (
     <>
       <h1>{title}</h1>
-      <p>{bodyData.slice(0, 500)}</p>
-      <p>{bodyData.slice(501, 5800)}</p>
+      <p>{bodyData && bodyData.slice(0, 500)}</p>
+      <p>{bodyData && bodyData.slice(501, 5800)}</p>
     </>
   );
 };
