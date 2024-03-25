@@ -29,7 +29,7 @@ const Blogs4 = () => {
             <h3>{title}</h3>
             <p>{truncateString(body, 100)}</p>
 
-            <Link to={title}>Learn More</Link>
+            <Link to={title} state={{id, title, body}}>Learn More</Link>
           </article>
         })};
       </section>
