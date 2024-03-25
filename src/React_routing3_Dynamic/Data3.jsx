@@ -22,6 +22,6 @@ export const blogsData = [
   {
     id: 5,
     title: 'react',
-    body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nobis magni possimus tenetur veniam vitae quo provident ad, eum nemo iste quaerat suscipit aperiam sapiente, quas nisi repellendus velit quam unde veritatis ducimus fugit nihil. Ex, dolor commodi suscipit eaque, asperiores voluptatum distinctio laudantium exercitationem consectetur maiores iure molestias cumque?'
-  }
+    body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nobis magni possimus tenetur veniam vitae quo provident ad, eum nemo iste quaerat suscipit aperiam sapiente, quas nisi repellendus velit quam unde veritatis ducimus fugit nihil. Ex, dolor commodi suscipit eaque, asperiores voluptatum distinctio laudantium exercitationem consectetur maiores iure molestias cumque?',
+  },
 ];

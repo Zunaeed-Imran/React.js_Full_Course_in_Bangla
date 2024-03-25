@@ -1,12 +1,12 @@
 import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Error3Page from './pages/Error3Page';
-import Contact3 from './pages/Contact3';
 
 import Home3 from './pages/Home3';
-import Nav_bar3 from './pages/Nav_bar3';
 import Blogs3 from './pages/Blogs3';
 import Blog3 from './pages/Blog3';
+import Nav_bar3 from './pages/Nav_bar3';
+import Contact3 from './pages/Contact3';
+import Error3Page from './pages/Error3Page';
 
 
 

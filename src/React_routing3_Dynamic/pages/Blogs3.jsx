@@ -23,7 +23,7 @@ const Blogs3 = () => {
         {blogs.map((blog) => {
           const { id, title, body } = blog;
           return <article key={id}>
-            <h2>{title}</h2>
+            <h3>{title}</h3>
             <p>{truncateString(body, 100)}</p>
             
             <Link to={title} >Learn More</Link>
