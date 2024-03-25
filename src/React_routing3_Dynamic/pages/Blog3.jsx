@@ -1,39 +1,26 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react';
+import { useParams } from 'react-router-dom';
 import { blogsData } from '../Data3';
-import { Link } from 'react-router-dom';
 
 const Blog3 = () => {
+  const title = useParams();
 
-  const [blogs, setBlogs] = useState(blogsData);
+  const [bodyData, setBodyData] = useState();
 
-
-  const truncateString = (str, num) => {
-    if (str.length > num) {
-      return str.slice(0, num) + "..."
-    } else {
-      return str;
-    }
-  }
+  useEffect(() => {
+    const blog3Data = blogsData.filter(blog => {
+      blog.title === title;
+      setBodyData(blog3Data[0], body);
+    });
+  });
 
   return (
     <>
-      <h1>Blog Page</h1>
-
-      <section>
-        {blogs.map((blog) => {
-          const { id, title, body } = blog;
-          return <article key={id}>
-            <h2>{title}</h2>
-            <p>{truncateString(body, 100)}</p>
-
-            {/* <Link to={title} >Learn More</Link> */}
-          </article>
-        })}
-      </section>
-     
-      
+      <h1>{title}</h1>
+      <p>{bodyData.slice(0, 500)}</p>
+      <p>{bodyData.slice(501, 5800)}</p>
     </>
-  )
-}
+  );
+};
 
 export default Blog3;

@@ -1,9 +1,8 @@
 ### React Dynamic routing
 - we will learn dynamic routin form this folder.
+- also styling larean in this video, but i didn't practice design.
+- we can find the path value by using useParams().
 - 
-
-
-
 
 
 
