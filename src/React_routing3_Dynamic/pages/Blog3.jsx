@@ -6,6 +6,15 @@ const Blog3 = () => {
 
   const [blogs, setBlogs] = useState(blogsData);
 
+
+  const truncateString = (str, num) => {
+    if (str.length > num) {
+      return str.slice(0, num) + "..."
+    } else {
+      return str;
+    }
+  }
+
   return (
     <>
       <h1>Blog Page</h1>
@@ -15,8 +24,9 @@ const Blog3 = () => {
           const { id, title, body } = blog;
           return <article key={id}>
             <h2>{title}</h2>
-            <p>{body}</p>
-            <Link to={title} >Learn More</Link>
+            <p>{truncateString(body, 100)}</p>
+
+            {/* <Link to={title} >Learn More</Link> */}
           </article>
         })}
       </section>
