@@ -1,6 +1,7 @@
 import { Fragment } from 'react';
 import './App.css';
-import Query_Paremeter from './React_Routing5_Query/Query_Paremeter';
+import Proted_Routing from './React_Routing_Protected/Proted_Routing';
+// import Query_Paremeter from './React_Routing5_Query/Query_Paremeter';
 // import Use_Loaction from './React_Routing4_Uselocation/Use_Loaction';
 // import Dynamic_Routing from './React_routing3_Dynamic/Dynamic_Routing';
 // import Raect_route2 from './React_routing_Navigation/Raect_route2';
@@ -182,7 +183,9 @@ function App() {
 
       {/* <Use_Loaction/> */}
 
-      <Query_Paremeter/>
+      {/* <Query_Paremeter/> */}
+
+      <Proted_Routing/>
     </>
   );
 }
