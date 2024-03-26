@@ -1,0 +1,8 @@
+### React routing query paramenter's 
+
+### `User5.jsx`
+- we practice useParems() in a simple way, in this 'user5' file.
+
+### `User6.jsx`
+- we practice useSearchParams() in basick way, in this 'user6' file.
+

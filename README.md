@@ -141,4 +141,6 @@
 
 ###### Done Task For Today
 - Learning react routing | route parameter, query parameter.
+- Practicing useParams()
+- Practicing Search parameter.
 - 
