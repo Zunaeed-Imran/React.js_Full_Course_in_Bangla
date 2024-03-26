@@ -20,7 +20,9 @@ const Query_Paremeter = () => {
         <Route path='/blogs' element={<Blogs5/>} />
         <Route path='/blogs/:title' element={<Blog5/>} />
         <Route path='/contact' element={<Contact5/>} />
-        <Route path='*' element={<Error_page5/>} />
+        <Route path='*' element={<Error_page5 />} />
+        
+        {/* // ussParams practice.  */}
         <Route path='/user/:userid' element={<User5/>} />
       </Routes>
     </BrowserRouter>
