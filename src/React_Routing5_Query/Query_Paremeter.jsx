@@ -8,6 +8,7 @@ import Blog5 from './pages/Blog5';
 import Contact5 from './pages/Contact5';
 import User5 from './pages/User5';
 import User6 from './pages/User6';
+import Query_Input from './Query_Input';
 
 
 
@@ -22,6 +23,10 @@ const Query_Paremeter = () => {
         <Route path='/blogs/:title' element={<Blog5/>} />
         <Route path='/contact' element={<Contact5/>} />
         <Route path='*' element={<Error_page5 />} />
+
+        {/* Practice Query Parameter  */}
+        <Route path='/userquery' element={<Query_Input/>} />
+
 
         {/* Practicing search parameter  */}
         <Route path='/user/' element={<User6/>} />

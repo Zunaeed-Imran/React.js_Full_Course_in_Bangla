@@ -143,4 +143,6 @@
 - Learning react routing | route parameter, query parameter.
 - Practicing useParams()
 - Practicing Search parameter.
+- practice query parameter.
+- Learning  react routing | Protected routing
 - 

@@ -6,3 +6,5 @@
 ### `User6.jsx`
 - we practice useSearchParams() in basick way, in this 'user6' file.
 
+### `Query_Parameter.jsx`
+- we learn and practice query parameter in 'Query_Input.jsx' this file.
