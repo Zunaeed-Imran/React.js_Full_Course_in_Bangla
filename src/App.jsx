@@ -1,6 +1,7 @@
 // import { Fragment } from 'react';
 import './App.css';
-import UseCallBack from './UseCallBack_Hook/UseCallBack';
+import UseMemo from './UseMemoHook/UseMemo';
+// import UseCallBack from './UseCallBack_Hook/UseCallBack';
 // import React_memo from './React_Memo/React_memo';
 // import React_Helmet from './React_Helmet/Helmet';
 // import Json_Server from './JsonServer_Create/Json_Server';
@@ -197,7 +198,9 @@ function App() {
 
       {/* <React_memo/> */}
 
-      <UseCallBack/>
+      {/* <UseCallBack/> */}
+
+      <UseMemo/>
     </>
   );
 }
