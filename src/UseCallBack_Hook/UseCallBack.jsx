@@ -10,6 +10,7 @@ const UseCallBack = () => {
   console.log("App_rendering")
 
 
+  // useCallback function we use here.
   const handleIncrement = useCallback(() => {
     setCount(count + 2);
   }, [count]);
