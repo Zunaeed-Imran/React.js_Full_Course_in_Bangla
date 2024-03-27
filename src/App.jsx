@@ -1,6 +1,7 @@
-import { Fragment } from 'react';
+// import { Fragment } from 'react';
 import './App.css';
-import React_memo from './React_Memo/React_memo';
+import UseCallBack from './UseCallBack_Hook/UseCallBack';
+// import React_memo from './React_Memo/React_memo';
 // import React_Helmet from './React_Helmet/Helmet';
 // import Json_Server from './JsonServer_Create/Json_Server';
 // import Proted_Routing from './React_Routing_Protected/Proted_Routing';
@@ -194,7 +195,9 @@ function App() {
 
       {/* <React_Helmet/> */}
 
-      <React_memo/>
+      {/* <React_memo/> */}
+
+      <UseCallBack/>
     </>
   );
 }

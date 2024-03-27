@@ -146,4 +146,6 @@
 - Practice React helmet.
 - Learning deploy react app on netlify from GitHub.
 - Learning react memo.
-- 
+- Practicing memo in react.
+- Learning React Hooks | useCallback hook.
+- Practicing 

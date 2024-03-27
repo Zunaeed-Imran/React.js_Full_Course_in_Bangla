@@ -1,0 +1,3 @@
+- useCallback() function can revieve inline or callback function.
+- secondly we can pass the state value in dependencies.
+## we can see in the example when we click taggle than all page render but, after we use callback function it won't call the massege page, when we click toggle button.
