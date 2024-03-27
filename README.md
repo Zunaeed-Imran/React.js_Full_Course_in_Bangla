@@ -150,4 +150,5 @@
 - Learning React Hooks | useCallback hook.
 - Practicing useCallback hook.
 - Learning React Hooks | useMemo hook.
+- Practicing React useMemo Hook.
 - 

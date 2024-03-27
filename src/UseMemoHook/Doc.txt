@@ -1,0 +1,5 @@
+###
+- we use useMemo() for faster rendering.
+##
+- we see it first that we use for loop otside useMemo()function it take tiem every time render.
+- but after we use for loop in the useMemo() function first time it take time after that it render easily just like there is no loop.
