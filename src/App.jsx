@@ -1,6 +1,7 @@
 import { Fragment } from 'react';
 import './App.css';
-import React_Helmet from './React_Helmet/Helmet';
+import React_memo from './React_Memo/React_memo';
+// import React_Helmet from './React_Helmet/Helmet';
 // import Json_Server from './JsonServer_Create/Json_Server';
 // import Proted_Routing from './React_Routing_Protected/Proted_Routing';
 // import Query_Paremeter from './React_Routing5_Query/Query_Paremeter';
@@ -191,7 +192,9 @@ function App() {
 
       {/* <Json_Server/> */}
 
-      <React_Helmet/>
+      {/* <React_Helmet/> */}
+
+      <React_memo/>
     </>
   );
 }

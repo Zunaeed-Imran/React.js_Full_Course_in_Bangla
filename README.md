@@ -143,4 +143,7 @@
 - Learning How to create a JSON server using NPM.
 - Practicing Create Json server and using it by using axios.
 - Learning  react helmet npm package | page title setup.
+- Practice React helmet.
+- Learning deploy react app on netlify from GitHub.
+- Learning react memo.
 - 
