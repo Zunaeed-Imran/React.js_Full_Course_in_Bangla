@@ -1,8 +1,10 @@
+// we practice memo in this file.
+
 import React from 'react'
 import { memo } from 'react';
 
 
-const Message = () => {
+const Message = ({message}) => {
 
 
   console.log("Message-rendering");
@@ -10,7 +12,7 @@ const Message = () => {
   return (
 
     <>
-      <p>Send 0 Message</p>
+      <p>Send {message} Message</p>
     </>
   )
 }

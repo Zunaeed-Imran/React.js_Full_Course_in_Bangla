@@ -1,0 +1,3 @@
+## Memo Documentaion.
+- if we call the memo the massege page will not render.
+- if we call props even in using the memo.... memo won't work.

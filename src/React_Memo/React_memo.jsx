@@ -8,16 +8,19 @@ const React_memo = () => {
   console.log("remdering-memo-page");
 
   return (
-
     <>
       <h2>Count:{count}</h2>
 
-      <button onClick={() => {
-        setCount(count + 1);
-      }}>Increment</button>
-      <Message/>
+      <button
+        onClick={() => {
+          setCount(count + 1);
+        }}
+      >
+        Increment
+      </button>
+      <Message message={count} />
     </>
-  )
+  );
 }
 
 export default React_memo;
