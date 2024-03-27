@@ -1,6 +1,7 @@
 import { Fragment } from 'react';
 import './App.css';
-import Proted_Routing from './React_Routing_Protected/Proted_Routing';
+import Json_Server from './JsonServer_Create/Json_Server';
+// import Proted_Routing from './React_Routing_Protected/Proted_Routing';
 // import Query_Paremeter from './React_Routing5_Query/Query_Paremeter';
 // import Use_Loaction from './React_Routing4_Uselocation/Use_Loaction';
 // import Dynamic_Routing from './React_routing3_Dynamic/Dynamic_Routing';
@@ -185,7 +186,9 @@ function App() {
 
       {/* <Query_Paremeter/> */}
 
-      <Proted_Routing/>
+      {/* <Proted_Routing/> */}
+
+      <Json_Server/>
     </>
   );
 }

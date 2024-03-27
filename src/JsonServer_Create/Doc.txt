@@ -1,0 +1,3 @@
+## for making json server command.
+- `npx json-server -p 5173 -w database/Db.json`
+-

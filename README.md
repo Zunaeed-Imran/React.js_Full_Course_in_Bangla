@@ -140,9 +140,5 @@
   we have to explicitly import Fragment from 'react' and render <Fragment key={yourKey}>...</Fragment>.
 
 ###### Done Task For Today
-- Learning react routing | route parameter, query parameter.
-- Practicing useParams()
-- Practicing Search parameter.
-- practice query parameter.
-- Learning  react routing | Protected routing
-- Practice Protected routing.
+- Learning How to create a JSON server using NPM.
+- 

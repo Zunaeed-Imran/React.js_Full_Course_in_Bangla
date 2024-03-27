@@ -1,0 +1,13 @@
+{
+  "User":[
+    {
+      "id":"1", "name":"Zunaeed-Imran", "email": "zunaeed.emran@yahoo.com"
+    },
+    {
+      "id":"2", "name":"Khaled-Imran", "email": "khaled@gamil.com"
+    },
+    {
+      "id":"3", "name":"Julius-Iqbal", "email": "julius_Iqbal@yahoo.com"
+    }
+  ]
+}
