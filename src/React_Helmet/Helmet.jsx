@@ -1,14 +1,12 @@
 import React from 'react'
-import { Helmet } from 'react-helmet';
+import Page_Title from './components/Page_Title';
 
 const React_Helmet = () => {
 
 
   return (
     <>
-      <Helmet>
-        <title>Helmet</title>
-      </Helmet>
+      <Page_Title title="Davin" />
       <h2>Helmet Practice in React.</h2>
     </>
   )

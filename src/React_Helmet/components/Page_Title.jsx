@@ -1,20 +1,15 @@
 import React from 'react'
 import { Helmet } from 'react-helmet';
 
-const Page_Title = () => {
+const Page_Title = ({title}) => {
 
 
   return (
 
     <>
-      <div>
         <Helmet>
-          <title>Home Page</title>
+          <title>{title}</title>
         </Helmet>
-
-
-        <h2>Home Page page Title.</h2>
-      </div>
     </>
   )
 }

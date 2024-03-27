@@ -1,7 +1,7 @@
 import { Fragment } from 'react';
 import './App.css';
 import React_Helmet from './React_Helmet/Helmet';
-import Json_Server from './JsonServer_Create/Json_Server';
+// import Json_Server from './JsonServer_Create/Json_Server';
 // import Proted_Routing from './React_Routing_Protected/Proted_Routing';
 // import Query_Paremeter from './React_Routing5_Query/Query_Paremeter';
 // import Use_Loaction from './React_Routing4_Uselocation/Use_Loaction';
@@ -189,9 +189,9 @@ function App() {
 
       {/* <Proted_Routing/> */}
 
-      <Json_Server/>
+      {/* <Json_Server/> */}
 
-      {/* <React_Helmet/> */}
+      <React_Helmet/>
     </>
   );
 }
