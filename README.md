@@ -140,15 +140,5 @@
   we have to explicitly import Fragment from 'react' and render <Fragment key={yourKey}>...</Fragment>.
 
 ###### Done Task For Today
-- Learning How to create a JSON server using NPM.
-- Practicing Create Json server and using it by using axios.
-- Learning  react helmet npm package | page title setup.
-- Practice React helmet.
-- Learning deploy react app on netlify from GitHub.
-- Learning react memo.
-- Practicing memo in react.
-- Learning React Hooks | useCallback hook.
-- Practicing useCallback hook.
-- Learning React Hooks | useMemo hook.
-- Practicing React useMemo Hook.
+- Learning use useReducer with Context API.
 - 
