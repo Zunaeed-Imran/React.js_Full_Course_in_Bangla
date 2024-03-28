@@ -141,4 +141,6 @@
 
 ###### Done Task For Today
 - Learning use useReducer with Context API.
+- Learning redux | Introduction to redux.
+- Learning redux | state, actions.
 - 

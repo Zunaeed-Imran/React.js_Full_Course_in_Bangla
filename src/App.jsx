@@ -1,6 +1,7 @@
 // import { Fragment } from 'react';
 import './App.css';
 import Use_Reducer from './UseReducer_Context_API/Use_Reducer';
+import Use_reducer1 from './Use_Reducer/Use_reducer1';
 // import UseMemo from './UseMemoHook/UseMemo';
 // import UseCallBack from './UseCallBack_Hook/UseCallBack';
 // import React_memo from './React_Memo/React_memo';
@@ -203,7 +204,9 @@ function App() {
 
       {/* <UseMemo/> */}
 
-      <Use_Reducer/>
+      {/* <Use_Reducer/> */}
+
+      <Use_reducer1/>
     </>
   );
 }
