@@ -139,6 +139,10 @@
 - If we want to pass key to a Fragment, we can’t use the <>...</> syntax.
   we have to explicitly import Fragment from 'react' and render <Fragment key={yourKey}>...</Fragment>.
 
+### SOme Remembering thing in react.
+- `useLocation()` by usung this function we can take data form other page not using props.
+
+
 ###### Done Task For Today
 - Learning use useReducer with Context API.
 - Learning redux | Introduction to redux.
