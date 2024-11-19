@@ -1,5 +1,6 @@
 ## for making json server command.
 - `npx json-server -p 5173 -w database/Db.json`
+- `npx json-server -p 5175 -w src/JsonServer_Create/database/db.json`
 - in the same local host can't be run the json server.
 - ['https://youtu.be/AvXiwzRyA1o?si=2U44gLeIxROe3wmy]
 

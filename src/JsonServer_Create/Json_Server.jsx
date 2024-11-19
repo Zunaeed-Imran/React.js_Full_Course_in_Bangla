@@ -8,7 +8,7 @@ const Json_Server = () => {
 
 
   const getAllUsers = async () => {
-    const response = await axios.get('http://localhost:5174/User');
+    const response = await axios.get('http://localhost:5175/User');
     setUsers(response.data);
   }
 
