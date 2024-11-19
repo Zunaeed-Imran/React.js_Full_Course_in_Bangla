@@ -20,10 +20,13 @@ const Json_Server = () => {
 
   return <div>
     {users.map(user => {
-      return <article key={user.id}>
-        <h2>{user.name}</h2>
-        <h2>{user.email}</h2>
-      </article>
+      return (
+        <article key={user.id}>
+          <h2>{user.name}</h2>
+          <img src={user.image} alt={`${user.name}'s image`} />
+          <h2>{user.email}</h2>
+        </article>
+      );
     })}
   </div>
 }
