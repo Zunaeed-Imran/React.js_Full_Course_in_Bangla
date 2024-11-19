@@ -5,3 +5,14 @@
 - ['https://youtu.be/AvXiwzRyA1o?si=2U44gLeIxROe3wmy]
 
 // practicing json data calling.
+const [uses, setUsers] = useState([]);
+
+const getAllUsers = async () => {
+  const response = await axios.get('http://...');
+  setUsers(response.data);
+}
+
+useEffect(() => {
+  getAllUsers();
+}, []);
+
