@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import axios from 'axios';
 
 
@@ -8,7 +8,7 @@ const Json_Server = () => {
 
 
   const getAllUsers = async () => {
-    const response = await axios.get('http://localhost:5175/User');
+    const response = await axios.get('http://localhost:5174/User');
     setUsers(response.data);
   }
 
