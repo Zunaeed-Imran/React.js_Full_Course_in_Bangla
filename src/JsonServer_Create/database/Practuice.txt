@@ -10,3 +10,12 @@ const getAllUsers =  async () => {
 useEffect(() => {
   getAllUsers();
 }, []);
+
+return(
+  {users.map(user => {
+    return(
+      {user.name}
+      {user.email}
+    )
+  })}
+)
