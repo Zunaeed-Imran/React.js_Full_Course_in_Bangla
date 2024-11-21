@@ -8,8 +8,9 @@ const Json_Server = () => {
 
 
   const getAllUsers = async () => {
-    const response = await axios.get('http://localhost:5175/User');
-    setUsers(response.data);
+    const response = await axios.get('/db2.json');
+    console.log(response.data.User); // for debuging.
+    setUsers(response.data.User);
   }
 
   
